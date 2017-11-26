@@ -74,7 +74,7 @@ Object.assign(Mob.prototype, {
     }
   },
   draw: function(world) {
-    var alpha = Math.random()*.1+ .1
+    var alpha = Math.random()*.1+ .15
     world.ctx.strokeStyle = 'rgba(0,0,0,'+alpha+')'
     if(Math.random() < .5) this.drawLine(world)
     world.ctx.setTransform(-1,0,0,1,world.canvas.width,0)
@@ -102,8 +102,6 @@ Object.assign(Mob.prototype, {
 
 var layers = []
 function init() {
-  // layers = [new World(), new World(), new World(), new World(), new World(), new World()]
-
   for(var i = 0; i <= 10; i++) layers.push((new World()))
 	document.body.onmousemove = function(e) {
     for(var i in layers) layers[i].parallax(e.clientX,e.clientY,50*(i-5))
@@ -117,7 +115,7 @@ function reset() {
     var layer = layers[i]
     layer.ctx.clearRect(0,0,layer.canvas.width,layer.canvas.height)
     layer.mobs = []
-    for(var i = 0; i < 2; i++) layer.mobs.push((new Mob({},layer)))
+    for(var i = 0; i < 3; i++) layer.mobs.push((new Mob({},layer)))
   }
 }
 
