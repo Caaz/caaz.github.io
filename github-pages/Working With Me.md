@@ -1,3 +1,6 @@
+---
+icon: LiQuestionMarkGlyph
+---
 # Primer
 As a developer I've had the chance to work with many teams, professionals, and hobbyists. Over the years I've really discovered what values I consider important to me while working, and I think those values would be useful to those who want to work with me in the future. 
 Here you can get the best idea of how best to utilize my skills and worth ethics to ensure my productivity is maximized and your expectations are in line with what quality I can provide.
