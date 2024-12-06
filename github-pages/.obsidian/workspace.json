@@ -83,21 +83,23 @@
   "left-ribbon": {
     "hiddenItems": {
       "webpage-html-export:Export Vault to HTML": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian42-brat:BRAT": false,
+      "webpage-html-export:Export as HTML": false
     }
   },
   "active": "7ca7a8d22a79d44c",
   "lastOpenFiles": [
+    "Game Design Documents/Havoc.md",
     "Working With Me.md",
     "Notes/Godot/Resolving Conflicts.md",
     "Notes/Godot/Project Structure.md",
     "Notes/Godot/Node and Scene References.md",
-    "Game Design Documents/Havoc.md",
-    "assets/Pasted image 20241205225128.png",
-    "assets/Pasted image 20241205225037.png",
-    "assets/Pasted image 20241205223838.png",
     "Notes/Godot/Error Handling.md",
     "Index.md",
+    "assets/terraria-screenshot.png",
+    "assets/rampage-screenshot.png",
+    "assets/havoc-mock.png",
     "Notes",
     "Game Design Documents",
     "assets/header.html",

@@ -3,8 +3,8 @@ Havoc is an arcade destruction game. Players take on the role of a kaiju and att
 # Game Design
 **Havoc** combines the action of **Rampage** with the environmental detail of **Terraria**, players will be tasked with destroying a certain percentage of the city, and the faster they do so the more points they get. During the level, 
 ## Inspirations
-![[Pasted image 20241205225037.png]]
-![[Pasted image 20241205225128.png]]
+![[rampage-screenshot.png]]
+![[terraria-screenshot.png]]
 - Rampage
 	- Kaiju player
 	- City levels
@@ -15,7 +15,7 @@ Havoc is an arcade destruction game. Players take on the role of a kaiju and att
 	- Small tile sizes
 ## Environment
 The levels will be tile based, the player's character will be some multiple of the tile size, this should give the player a good sense of scale, NPC characters will be one tile tall.  This is intended to give the player a sense of scale.
-![[Pasted image 20241205223838.png]]
+![[havoc-mock.png]]
 # User Interface
 ```mermaid
 ---
