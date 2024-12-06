@@ -6,9 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiQuestionMarkGlyph",
-      "LiHome",
-      "LiGamepad2"
+      "LiGamepad2",
+      "LiGamepad",
+      "LiAArrowUp",
+      "LiNewspaper",
+      "LiNotebook"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -32,7 +34,9 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "Godot": "LiGamepad2",
   "Index.md": "LiHome",
-  "Working With Me.md": "LiQuestionMarkGlyph"
+  "Working With Me.md": "LiQuestionMarkGlyph",
+  "Notes": "LiNotebook",
+  "Game Design Documents": "LiNewspaper",
+  "Notes/Godot": "LiGamepad2"
 }
