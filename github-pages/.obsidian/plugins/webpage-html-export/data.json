@@ -43,10 +43,11 @@
   "defaultFileIcon": "lucide//file",
   "defaultFolderIcon": "lucide//folder",
   "defaultMediaIcon": "lucide//file-image",
-  "exportPath": "C:\\\\Users\\DCaaz\\Projects\\caaz.github.io\\",
+  "exportPath": "/home/caaz/Projects/caaz.github.io/",
   "filesToExport": [
     [
-      "Notes/Godot",
+      "Game Design Documents",
+      "Notes",
       "Index.md",
       "Working With Me.md"
     ]
