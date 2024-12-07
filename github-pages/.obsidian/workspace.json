@@ -21,8 +21,24 @@
               "icon": "lucide-file",
               "title": "Havoc"
             }
+          },
+          {
+            "id": "568498857756d0d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Game Ideas.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Game Ideas"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,15 +103,16 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "7ca7a8d22a79d44c",
+  "active": "568498857756d0d2",
   "lastOpenFiles": [
-    "Game Design Documents/Havoc.md",
+    "Index.md",
+    "Game Ideas.md",
     "Working With Me.md",
+    "Game Design Documents/Havoc.md",
     "Notes/Godot/Resolving Conflicts.md",
     "Notes/Godot/Project Structure.md",
     "Notes/Godot/Node and Scene References.md",
     "Notes/Godot/Error Handling.md",
-    "Index.md",
     "assets/havoc/inspirations/terraria-screenshot.png",
     "assets/havoc/inspirations/street-fighter-bonus-stage-screenshot.png",
     "assets/havoc/inspirations/rampage-screenshot.png",
