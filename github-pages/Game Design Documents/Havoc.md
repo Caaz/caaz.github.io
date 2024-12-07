@@ -3,19 +3,25 @@ Havoc is an arcade destruction game. Players take on the role of a kaiju and att
 # Game Design
 **Havoc** combines the action of **Rampage** with the environmental detail of **Terraria**, players will be tasked with destroying a certain percentage of the city, and the faster they do so the more points they get. During the level, 
 ## Inspirations
-![[rampage-screenshot.png]]
-![[terraria-screenshot.png]]
+```img-gallery
+path: assets/havoc/inspirations
+type: horizontal
+```
+
 - Rampage
 	- Kaiju player
 	- City levels
 	- Unlockable characters
 - Terraria
 	- Destructable Environments
-	- Character abilities, builds
 	- Small tile sizes
+- Smash Bros. Series
+	- Unique character movesets and mobility
+- Street Fighter Car Smash
+	- Player vs Environment chaos
 ## Environment
-The levels will be tile based, the player's character will be some multiple of the tile size, this should give the player a good sense of scale, NPC characters will be one tile tall.  This is intended to give the player a sense of scale.
 ![[havoc-mock.png]]
+The levels will be tile based, the player's character will be some multiple of the tile size, this should give the player a good sense of scale, NPC characters will be one tile tall.  This is intended to give the player a sense of scale.
 # User Interface
 ```mermaid
 ---
@@ -25,7 +31,6 @@ flowchart TB
 	title(Title)
 	main_menu(Main Menu)
 	character_select(Character Select)
-	level_select(Level and Character Select)
 	gameplay(Gameplay)
 	load_menu(Load Menu)
 	credits(Credits)
@@ -38,9 +43,6 @@ flowchart TB
 	
 	main_menu -- Load Game --> load_menu
 	load_menu -- Select a save file --> gameplay
-
-	main_menu -- Single run --> level_select
-	level_select --> gameplay
 	
 	main_menu --> credits
 	gameplay --> credits
@@ -48,3 +50,8 @@ flowchart TB
 	main_menu --> settings
 	settings --> main_menu
 ```
+# Questions
+**How does this differ from just playing Rampage?**
+Smash-like control scheme, more maneuverability and destruction of environment.
+
+*If I had the IP, I would make this a Rampage sequel.*

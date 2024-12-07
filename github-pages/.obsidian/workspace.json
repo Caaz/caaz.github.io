@@ -14,9 +14,9 @@
               "type": "markdown",
               "state": {
                 "file": "Game Design Documents/Havoc.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Havoc"
@@ -82,7 +82,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "webpage-html-export:Export Vault to HTML": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian42-brat:BRAT": false,
       "webpage-html-export:Export as HTML": false
@@ -90,16 +89,20 @@
   },
   "active": "7ca7a8d22a79d44c",
   "lastOpenFiles": [
-    "Game Design Documents/Havoc.md",
     "Working With Me.md",
-    "Notes/Godot/Resolving Conflicts.md",
-    "Notes/Godot/Project Structure.md",
+    "Index.md",
     "Notes/Godot/Node and Scene References.md",
     "Notes/Godot/Error Handling.md",
-    "Index.md",
-    "assets/terraria-screenshot.png",
-    "assets/rampage-screenshot.png",
-    "assets/havoc-mock.png",
+    "Notes/Godot/Project Structure.md",
+    "Notes/Godot/Resolving Conflicts.md",
+    "Game Design Documents/Havoc.md",
+    "assets/havoc/inspirations/terraria-screenshot.png",
+    "assets/havoc/inspirations/street-fighter-bonus-stage-screenshot.png",
+    "assets/havoc/inspirations/rampage-screenshot.png",
+    "assets/havoc/inspirations/smash-ultimate-screenshot.png",
+    "assets/havoc/inspirations",
+    "assets/havoc",
+    "assets/havoc/havoc-mock.png",
     "Notes",
     "Game Design Documents",
     "assets/header.html",
