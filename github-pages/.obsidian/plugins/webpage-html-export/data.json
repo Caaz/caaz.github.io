@@ -10,7 +10,7 @@
     "postProcess": true,
     "displayProgress": true,
     "inlineHTML": false,
-    "exportPath": "C:\\Users\\DCaaz\\Projects\\caaz.github.io",
+    "exportPath": "/home/caaz/Projects/caaz.github.io",
     "filesToExport": [
       "Game Design Documents",
       "Notes",
@@ -179,9 +179,9 @@
       "enabled": true,
       "unavailable": false,
       "alwaysEnabled": false,
-      "siteUrl": "",
-      "siteName": "github-pages",
-      "authorName": ""
+      "siteUrl": "caaz.me",
+      "siteName": "Daniel / Caaz",
+      "authorName": "Daniel Cavazos"
     },
     "relativeHeaderLinks": false,
     "includeJS": true,
@@ -197,7 +197,7 @@
     "slugifyPaths": true,
     "flattenExportPaths": false,
     "fixLinks": true,
-    "faviconPath": "",
+    "faviconPath": "assets/favicon.svg",
     "iconEmojiStyle": "Native",
     "exportRoot": "",
     "includePluginCss": [],
