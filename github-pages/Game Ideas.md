@@ -1,5 +1,5 @@
 ---
-icon: LiGamepad2
+icon: LiLightbulb
 ---
 I like most game developers have many, many ideas. I absolutely won't make all of them, and some I may not even have a full enough idea to write a game design document. Here's where I'll write a quick one-sentence-pitch to describe an idea I have, and if I ever have the time, I'll write up a design doc for it too.
 

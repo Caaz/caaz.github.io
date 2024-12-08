@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Game Design Documents/Havoc.md",
+                "file": "Game Ideas.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Havoc"
+              "title": "Game Ideas"
             }
           }
         ],
@@ -105,15 +105,15 @@
   },
   "active": "568498857756d0d2",
   "lastOpenFiles": [
-    "Game Design Documents/Havoc.md",
+    "Index.md",
     "Working With Me.md",
+    "Game Design Documents/Havoc.md",
     "Notes/Godot/Resolving Conflicts.md",
     "Notes/Godot/Project Structure.md",
-    "Notes/Godot/Node and Scene References.md",
     "Notes/Godot/Error Handling.md",
-    "Game Ideas.md",
-    "Index.md",
+    "Notes/Godot/Node and Scene References.md",
     "Notes/Retrospectives/FLOE.md",
+    "Game Ideas.md",
     "Game Design Documents/Nightfall.md",
     "Notes/Retrospectives",
     "assets/havoc/inspirations/terraria-screenshot.png",
