@@ -39,5 +39,6 @@
   "Notes": "LiNotebook",
   "Game Design Documents": "LiNewspaper",
   "Notes/Godot": "LiGamepad2",
-  "Game Ideas.md": "LiGamepad2"
+  "Game Ideas.md": "LiGamepad2",
+  "Notes/Retrospectives": "LiNewspaper"
 }

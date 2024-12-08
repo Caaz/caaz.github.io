@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Index.md",
+                "file": "Game Design Documents/Havoc.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Index"
+              "title": "Havoc"
             }
           }
         ],
@@ -105,14 +105,17 @@
   },
   "active": "568498857756d0d2",
   "lastOpenFiles": [
-    "Index.md",
-    "Game Ideas.md",
     "Working With Me.md",
-    "Game Design Documents/Havoc.md",
     "Notes/Godot/Resolving Conflicts.md",
     "Notes/Godot/Project Structure.md",
     "Notes/Godot/Node and Scene References.md",
     "Notes/Godot/Error Handling.md",
+    "Game Design Documents/Havoc.md",
+    "Game Ideas.md",
+    "Index.md",
+    "Notes/Retrospectives/FLOE.md",
+    "Game Design Documents/Nightfall.md",
+    "Notes/Retrospectives",
     "assets/havoc/inspirations/terraria-screenshot.png",
     "assets/havoc/inspirations/street-fighter-bonus-stage-screenshot.png",
     "assets/havoc/inspirations/rampage-screenshot.png",
@@ -129,7 +132,6 @@
     "Notes/Godot",
     "assets",
     "assets/favicon.svg",
-    "A folder/A Sub Page.md",
-    "A folder"
+    "A folder/A Sub Page.md"
   ]
 }
