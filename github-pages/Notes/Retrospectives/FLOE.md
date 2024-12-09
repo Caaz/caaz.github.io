@@ -25,10 +25,19 @@ We ranked #7 out of 104 entries.
 | [Aesthetics](https://itch.io/jam/speedjam8/results/aesthetics)               | #16  | 3.600  | 3.600     |
 
 # What could go better
+>It should be noted that everything here isn't on any one person, and part of a game jam is to learn how to do better. Retrospectives are an effort to not repeat the past, and learn from them. I think everyone did amazing, given the time constraints, and we got a pretty good score as well!
+## Research
 I'm not sure any of us really had a good idea of speedrunning going into this jam, we had wildly different ideas of what to build for this, I think we kind of just picked something and ran. It probably would've helped to step back a bit and really dig into some of the best speedrunning games.
+## Reusable Scenes
 One of the things I feel we could've done better is a usage of reusable scenes, as every level was a copied scene, the elements within it, the player, camera, end flag, tilemaps, were all copied and pasted, so if there were a bug in one, we'd have to make the same change across every level to resolve it. This was a huge problem regarding efficiency not only programming and architecture wise, but just in development time.
+## Tileset utilization
 Tilemaps didn't use autotiling features, and I think that would've sped up level design greatly, and I believe the only current warnings/errors in the game comes from the tilesets or tilemaps.
-The use of Control nodes had to regularly be reorganized to scale nicely, and due to that the scripts kept breaking [[Node and Scene References]] was written after the jam to ensure I can avoid this problem in the future. A document should be written covering Control node layouts as well, so that we don't manually lay out everything going forward as well.
+## UI Configuration
+The use of Control nodes had to regularly be reorganized to scale nicely, and due to that the scripts kept breaking [[Node and Scene References]] was written after the jam to ensure I can avoid this problem in the future. A document should be written covering Control node layouts as well, so that we don't manually lay out everything going forward as well. A theme was also not set, requiring every button, font, padding, to be set manually.
+## LootLocker's script
+The script LootLocker provides is very long, not very configurable, and completely ignores design practices I think I would expect an API provider to provide, like a client. Integrating it into our project required manually editing a large script, and it's because of that, I couldn't quickly tell what was our changes or what was part of the example.
+Going forward, it'd be best if we had an easy-to-use API client that we could make a small script to integrate with. Plenty of godot addons work in this way, it was strange to me that LootLocker didn't provide something like that.
+## Personal
 Priorities weren't there for me, this was too short a jam that demanded too much of my attention and time to make it worth it. It's because of this that I had to really think about what motivates me and what I want to work on going forward. 
 # Floe credits
 Music & Audio - [Jaden Eubanks](https://jaden-eubanks.itch.io/)
