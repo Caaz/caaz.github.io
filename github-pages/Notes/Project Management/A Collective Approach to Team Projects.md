@@ -15,9 +15,15 @@ This document is written as an agreement of key values by means of consistent pr
 ## Every member has a voice.
 1. Through [[#Decision making via voting]], we ensure every member has a say in every team-level decision.
 ## Every member is on the same page.
-1. Through [[#A living document for team-level priorities]], we ensure every member is aware of which decisions are being made, and what the primary focus is.
-2. Through [[#Transparent financing]], we ensure every member has reasonable expectations of how much we can afford.
+1. Through [[#A living document for team-level priorities]], we ensure everyone is aware of which decisions are being made, and what the primary focus is.
+2. Through [[#Transparent financing]], we ensure everyone has reasonable expectations of how much we can afford.
+## Work-life balance is non-negotiable.
+1. Through asynchronous communication, we ensure everyone can work when they can do their best.
+2. 
 # Processes
+## Asynchronous communication
+
+
 ## A living document for team-level priorities
 Every member must be clear on the priorities of the team. A living document should exist to answer the following questions.
 - What is the current **Active project**?

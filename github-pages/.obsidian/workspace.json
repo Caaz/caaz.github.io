@@ -83,18 +83,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Godot Thoughts/Error Handling.md"
+                "file": "Notes/Project Management/A Collective Approach to Team Projects.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Error Handling"
+              "title": "Outline of A Collective Approach to Team Projects"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
