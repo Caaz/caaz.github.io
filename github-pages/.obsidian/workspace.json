@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Game Ideas.md",
+                "file": "Notes/Project Management/A Collective Approach to Game Development.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Game Ideas"
+              "title": "A Collective Approach to Game Development"
             }
           }
         ],
@@ -106,6 +106,9 @@
   "active": "568498857756d0d2",
   "lastOpenFiles": [
     "Index.md",
+    "Notes/Project Management/A Collective Approach to Game Development.md",
+    "Game Ideas.md",
+    "Notes/Project Management",
     "Working With Me.md",
     "Game Design Documents/Havoc.md",
     "Notes/Godot/Resolving Conflicts.md",
@@ -113,7 +116,6 @@
     "Notes/Godot/Error Handling.md",
     "Notes/Godot/Node and Scene References.md",
     "Notes/Retrospectives/FLOE.md",
-    "Game Ideas.md",
     "Game Design Documents/Nightfall.md",
     "Notes/Retrospectives",
     "assets/havoc/inspirations/terraria-screenshot.png",
@@ -130,7 +132,6 @@
     "Personal",
     "Godot/Untitled",
     "Notes/Godot",
-    "assets",
     "assets/favicon.svg",
     "A folder/A Sub Page.md"
   ]

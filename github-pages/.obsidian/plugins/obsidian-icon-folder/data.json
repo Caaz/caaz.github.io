@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiGroup",
       "LiLightbulb",
       "LiGamepad2",
       "LiGamepad",
-      "LiAArrowUp",
-      "LiNewspaper"
+      "LiAArrowUp"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -40,5 +40,6 @@
   "Game Design Documents": "LiNewspaper",
   "Notes/Godot": "LiGamepad2",
   "Game Ideas.md": "LiLightbulb",
-  "Notes/Retrospectives": "LiNewspaper"
+  "Notes/Retrospectives": "LiNewspaper",
+  "Notes/Project Management": "LiGroup"
 }
