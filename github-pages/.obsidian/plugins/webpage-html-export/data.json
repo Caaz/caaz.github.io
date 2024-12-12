@@ -10,7 +10,7 @@
     "postProcess": true,
     "displayProgress": true,
     "inlineHTML": false,
-    "exportPath": "/home/caaz/Projects/caaz.github.io",
+    "exportPath": "C:\\Users\\DCaaz\\Projects\\caaz.github.io",
     "filesToExport": [
       "Game Design Documents",
       "Notes",
