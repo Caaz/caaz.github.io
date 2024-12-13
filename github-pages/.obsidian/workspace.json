@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Game Design Documents/Grimmwar/Architecture.md",
+                "file": "Game Design Documents/Grimmwar.md",
                 "mode": "source",
                 "backlinks": false,
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Architecture"
+              "title": "Grimmwar"
             }
           }
         ]
@@ -67,10 +67,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Game Design Documents/Grimmwar/Architecture.md"
+                "file": "Game Design Documents/Grimmwar.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Architecture"
+              "title": "Outline of Grimmwar"
             }
           }
         ]
@@ -88,22 +88,23 @@
   },
   "active": "7ca7a8d22a79d44c",
   "lastOpenFiles": [
-    "Game Design Documents/Grimmwar.md",
-    "Game Design Documents/Grimmwar/Architecture.md",
-    "Untitled.md",
-    "Game Design Documents/Havoc.md",
-    "Notes/Project Management/A Collective Approach to Team Projects.md",
-    "assets/favicon.svg",
-    "assets/mock-grimmwar.png",
-    "Notes/Godot/Project Structure.md",
-    "Game Design Documents/Grimmwar",
     "Working With Me.md",
     "Notes/Godot/Resolving Conflicts.md",
-    "Notes/Godot/Error Handling.md",
+    "Notes/Godot/Project Structure.md",
     "Notes/Godot/Node and Scene References.md",
+    "Notes/Godot/Error Handling.md",
+    "Game Design Documents/Havoc.md",
     "Index.md",
     "Notes/Retrospectives/FLOE.md",
+    "Notes/Project Management/A Collective Approach to Team Projects.md",
     "Game Ideas.md",
+    "Game Design Documents/Grimmwar/Architecture.md",
+    "Game Design Documents/Grimmwar.md",
+    "assets/Screenshot 2024-12-12 22-57-50-823.jpg",
+    "Untitled.md",
+    "assets/favicon.svg",
+    "assets/mock-grimmwar.png",
+    "Game Design Documents/Grimmwar",
     "Untitled",
     "Notes/Project Management",
     "Game Design Documents/Nightfall.md",
