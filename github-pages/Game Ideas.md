@@ -16,5 +16,5 @@ I like most game developers have many, many ideas. I absolutely won't make all o
 | Sorcery       | Build a deck of minions, spells, and enchantments to defeat sorcerers in semi-autobattler combat, whichever sorcerer falls first loses!                                                                  |
 | Slime Pinball | Play pinball in bottle terrariums, slimes are the ball, and each slime has different abilities!                                                                                                          |
 | Looper        | A malfunctioning time machine sends colonists back in time at fixed intervals, echoes of the past continue to do their work, the player must find a way to harness the machine and escape the time loop. |
-| [[Grimmwar]]  | A deckbuilding game themed around grimms' fairy tales.                                                                                                                                                   |
+| [[Grimmwar - Design Document]]  | A deckbuilding game themed around grimms' fairy tales.                                                                                                                                                   |
 

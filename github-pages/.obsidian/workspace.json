@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Game Design Documents/Grimmwar/Architecture.md",
+                "file": "Game Design Documents/Grimmwar/Grimmwar - Design Document.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Architecture"
+              "title": "Grimmwar - Design Document"
             }
           }
         ]
@@ -67,10 +67,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Game Design Documents/Grimmwar/Architecture.md"
+                "file": "Game Design Documents/Grimmwar/Grimmwar - Design Document.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Architecture"
+              "title": "Outline of Grimmwar - Design Document"
             }
           }
         ]
@@ -88,8 +88,9 @@
   },
   "active": "7ca7a8d22a79d44c",
   "lastOpenFiles": [
-    "Game Design Documents/Grimmwar.md",
     "Game Design Documents/Grimmwar/Architecture.md",
+    "Game Design Documents/Grimmwar/Grimmwar - Design Document.md",
+    "Game Ideas.md",
     "Untitled.md",
     "Game Design Documents/Havoc.md",
     "Notes/Project Management/A Collective Approach to Team Projects.md",
@@ -103,7 +104,6 @@
     "Notes/Godot/Node and Scene References.md",
     "Index.md",
     "Notes/Retrospectives/FLOE.md",
-    "Game Ideas.md",
     "Untitled",
     "Notes/Project Management",
     "Game Design Documents/Nightfall.md",
