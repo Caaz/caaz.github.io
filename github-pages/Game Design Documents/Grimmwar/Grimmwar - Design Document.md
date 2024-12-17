@@ -2,6 +2,7 @@
 **WIP** This probably still needs some trimming, but it's the plan so far!
 
 Grimmwar is a story building card game, mix and match story cards and build a story of a battle between your deck and your opponents.
+![[Screenshot 2024-12-12 22-57-50-823.jpg]]
 ![[mock-grimmwar.png]]
 ## Card Deck Jam
 This game was designed for the first [Card Deck Jam](https://itch.io/jam/card-deck-jam) The theme is **Building**, and I've decided to use in the following ways

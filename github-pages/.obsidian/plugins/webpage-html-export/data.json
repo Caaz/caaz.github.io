@@ -10,7 +10,7 @@
     "postProcess": true,
     "displayProgress": true,
     "inlineHTML": false,
-    "exportPath": "C:\\Users\\DCaaz\\Projects\\caaz.github.io",
+    "exportPath": "/home/caaz/Projects/caaz.github.io",
     "filesToExport": [
       "Game Design Documents",
       "Notes",
@@ -211,7 +211,7 @@
   "onlyExportModified": true,
   "deleteOldFiles": true,
   "exportPreset": "online",
-  "openAfterExport": true,
+  "openAfterExport": false,
   "filePickerBlacklist": [
     "(^|\\/)node_modules\\/",
     "(^|\\/)dist\\/",

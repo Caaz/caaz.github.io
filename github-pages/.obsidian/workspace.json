@@ -16,7 +16,7 @@
                 "file": "Game Design Documents/Grimmwar/Grimmwar - Design Document.md",
                 "mode": "source",
                 "backlinks": false,
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "Grimmwar - Design Document"
@@ -100,8 +100,10 @@
     "Game Design Documents/Grimmwar",
     "Working With Me.md",
     "Notes/Godot/Resolving Conflicts.md",
-    "Notes/Godot/Error Handling.md",
+    "Notes/Godot/Project Structure.md",
     "Notes/Godot/Node and Scene References.md",
+    "Notes/Godot/Error Handling.md",
+    "Game Design Documents/Havoc.md",
     "Index.md",
     "Notes/Retrospectives/FLOE.md",
     "Untitled",
