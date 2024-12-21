@@ -18,4 +18,4 @@ I believe, even under tight deadlines, at the very least, "make it right" must b
 If you want me in a meeting, serve a clear purpose. If you put me in a meeting where my participation is not explicitly required I will tune out the entire thing and socially auto-pilot my way through it all.
 I don't actually mind meetings, I could sit in one all day, but you won't get productivity code-wise out of me during one. I am near incapable of writing code while listening to people talk.
 # Still want to work with me?
-Well, if you can get behind my key values, what I stand for as a developer, then feel free to [[Index#Contact|contact me]]. I'm open to working on anything, so long as I can learn from it.
+Well, if you can get behind my key values, what I stand for as a developer, then feel free to [[_index#Contact|contact me]]. I'm open to working on anything, so long as I can learn from it.

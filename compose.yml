@@ -1,8 +1,13 @@
 name: dev-site
 services:
-  hugo:
+  build:
+    build: .
+    volumes:
+      - ".:/src/"
+    command: obsidian-export -h
+  serve:
     image: klakegg/hugo:0.101.0-ubuntu
-    command: server -D
+    command: server -D 
     volumes:
       - ".:/src"
     ports: 
