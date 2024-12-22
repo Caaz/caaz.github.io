@@ -3,7 +3,7 @@
       "commands": [
         {
           // Run whenever any file is saved
-          "match": ".*.html",
+          "match": ".*",
           "cmd": "docker compose restart server"
         }
       ]

@@ -1,1 +1,13 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
+.menu-list {
+  --bulma-menu-item-radius: 0;
+  --bulma-menu-nested-list-margin:0;
+  --bulma-menu-list-link-padding:.1em .4em;
+  .is-active {
+    background-color: red;
+  }
+}
+/* hsl(
+  var(--bulma-menu-item-h),
+  var(--bulma-menu-item-s),
+  calc(var(--bulma-menu-item-background-l) + var(--bulma-menu-item-background-l-delta))) */
