@@ -1,4 +1,4 @@
 baseURL = 'http://caaz.me/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Daniel / Caaz'
 theme = ["caaz"]

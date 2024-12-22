@@ -11,17 +11,8 @@ services:
           path: ./vault
   server:
     image: klakegg/hugo:0.101.0-ubuntu
-    command: server -D -c /sync/content
+    command: server -D --watch=false
     volumes:
-      - "./content:/sync/content"
-      # - "./archetypes:/src/archetypes"
-      # - "./layouts:/src/layouts"
-      # - "./config.toml:/src/config.toml"
       - ".:/src/"
     ports: 
         - "1313:1313"
-    develop:
-      watch:
-        - action: sync+restart
-          path: ./themes/caaz/
-          target: ./themes/caaz/

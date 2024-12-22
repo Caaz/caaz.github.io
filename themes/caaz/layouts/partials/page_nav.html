@@ -1,0 +1,17 @@
+{{ $current_page := .current}}
+{{ if .page.IsPage }}
+  {{ partial "page_nav_link" (dict "Page" .page "Current" $current_page)}}
+{{ else }}
+  {{ range .page.Pages.GroupBy "Parent" }}
+    {{ partial "page_nav_link" (dict "Page" .Key "Current" $current_page)}}
+    <li>
+      <ul class="menu-list">
+        <li>
+          {{ range .Pages }}
+            {{ partial "page_nav" (dict "page" .Page "current" $current_page) }}
+          {{ end }}
+        </li>
+      </ul>
+    </li>
+  {{ end }}
+{{ end }}
