@@ -3,11 +3,17 @@ services:
   build:
     build: .
     volumes:
-      - ".:/src"
+      - "./vault:/src/vault"
+      - "./content:/src/content"
+    develop:
+      watch:
+        - action: rebuild
+          path: ./vault
   serve:
     image: klakegg/hugo:0.101.0-ubuntu
-    command: server -D 
+    command: server -D -c /sync/content
     volumes:
+      - "./content:/sync/content"
       - ".:/src"
     ports: 
         - "1313:1313"
