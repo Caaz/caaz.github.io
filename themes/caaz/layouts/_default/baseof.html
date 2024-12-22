@@ -2,20 +2,36 @@
 <head>
   {{ partial "header.html" . }}
 </head>
-<body>
-  <main>
-    <div class="columns">
-      <div class="column is-narrow">
-        <aside class="menu pl-2">
-          <ul class="menu-list">
-            {{ partial "page_nav" (dict "page" .Site.Home "current" .Page) }}
-          </ul>
-        </aside>
-      </div>
-      <div class="column">
-        {{ block "main" . }} Nothing Rendered{{ end }}
+<body class="is-flex is-flex-direction-column">
+  {{ partial "navbar" .}}
+  <div class="columns m-0 is-flex-grow-1">
+    <div class="column is-narrow pr-0">
+      <aside class="menu">
+        <ul class="menu-list">
+          {{ $current_page := .Page }}
+          {{ range .Site.Home.Pages }}
+            {{ partial "page_nav" (dict "page" .Page "current" $current_page) }}
+          {{ end }}
+        </ul>
+      </aside>
+    </div>
+    <div class="column has-background-black-ter">
+      <div class="content container">
+        <div class="p-3 ">
+          {{ block "main" . }}Nothing Rendered{{ end }}
+        </div>
       </div>
     </div>
-  </main>
+    <div class="column is-narrow is-hidden-touch">
+      {{ .TableOfContents }}
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        Hello World
+      </p>
+    </div>
+  </footer>
 </body>
 </html>
