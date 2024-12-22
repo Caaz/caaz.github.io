@@ -1,9 +1,11 @@
-FROM rust:1-bullseye AS build
-
-WORKDIR /src
-
+FROM rust:bullseye AS build
 RUN <<EOF
+apt-get update
+apt-get -y install inotifytools
 cargo install obsidian-export
 EOF
 
-CMD obsidian-export ./vault ./content
+WORKDIR /src/
+COPY build.sh /src/build.sh
+
+ENTRYPOINT ["/src/build.sh"]

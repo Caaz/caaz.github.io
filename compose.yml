@@ -3,8 +3,7 @@ services:
   build:
     build: .
     volumes:
-      - ".:/src/"
-    command: obsidian-export -h
+      - ".:/src"
   serve:
     image: klakegg/hugo:0.101.0-ubuntu
     command: server -D 
