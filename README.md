@@ -1,6 +1,17 @@
 # Caaz.me
 This repository is the source of a portfolio / blog site I have!
 
+## Goals
+
+### Project
+- [x] I want to be able to edit my content through Obsidian.
+- [x] I want to be able to have full control of my theme
+- [x] I want to have a development server, so that I don't need to rely on publishing to view my changes
+- [x] I want to avoid pushing built code to github.
+
+### Theme
+- [x] I want to allow users to switch between light and dark modes
+
 ## Development
 
 ### Content
