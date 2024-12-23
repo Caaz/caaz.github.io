@@ -1,13 +1,14 @@
 
 // This feels dumb but I'm not going to think about it.
-$purple: #9977cc;
-
+// $purple: #9977cc;
+$purple: #332266;
 @use "../../../../assets/bulma/sass" with (
   $menu-nested-list-margin: 0,
   $menu-list-border-left: 0,
   $link: $purple,
   $menu-item-radius:0,
   $content-heading-weight:400,
+  // $navbar-item-color:$purple,
 );
 
 body {
@@ -65,11 +66,18 @@ body {
   }
   .menu-dropdown:has(input) + ul{
     // display: none;
-    max-height:0px;
+    transition:max-height .2s ease-in-out;
+    max-height:0;
     overflow: hidden;
   }
   .menu-dropdown:has(input:checked) + ul{
     // display: block;
-    max-height:unset;
+    max-height:10em;
   }  
+}
+pre {
+  padding:0!important;
+  code {
+    background-color:var(--bulma-scheme-main)!important;
+  }
 }
