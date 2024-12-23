@@ -10,8 +10,8 @@ services:
         - action: rebuild
           path: ./vault
   server:
-    image: klakegg/hugo:0.101.0-ubuntu
-    command: server -D --watch=false
+    image: klakegg/hugo:ext-ubuntu
+    command: server -D
     volumes:
       - ".:/src/"
     ports: 

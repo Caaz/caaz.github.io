@@ -1,0 +1,26 @@
+
+// This feels dumb but I'm not going to think about it.
+$purple: #9977cc;
+
+@use "../../../../assets/bulma/sass" with (
+  $menu-nested-list-margin: 0,
+  $menu-list-border-left: 0,
+  $link: $purple,
+  $menu-item-radius:0,
+);
+
+body {
+  min-height:100vh;
+}
+.content {
+  p {
+    text-indent:2em;
+  }
+}
+
+#TableOfContents {
+  @extend .menu;
+  ul {
+    @extend .menu-list
+  }
+}

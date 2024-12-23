@@ -1,21 +1,28 @@
 ---
-title: Home Page
+title: Daniel / Caaz
 date: 2024-12-21
 draft: false
 ---
 
 ## About me
-Hi! My name is Daniel, but I usually go by **Caaz**. I've been developing professionally for ten years now, and as a hobbyist for twenty. Growing up, I always wanted to develop video games, because I couldn't afford any. Programming was a means to entertainment for me, and that never stopped. I really enjoy stumbling onto interesting problems and finding ways of solving them. 
-Most of what I know is self-taught, while I did go to Fresno City college, it was more a formality to prove to potential employers that I know what I'm doing, and the professors there leaned heavily on presenting Youtube videos as class materials, which wasn't much of an education anyway
+Hi! My name is **Daniel**, but online, I go by **Caaz**. With over ten years of professional experience and twenty years as a hobbyist developer under my belt, you can bet I'm passionate about programming, architecture, and 
 
-## What's here
-This site is where I publish living documents. Many of the links may shift with time, and the documents within them may change as well, if you'd like to save a particular page for long term use, you're likely better off finding the commit in the [public github repository](https://github.com/Caaz/caaz.github.io) for this site and saving that. To view and edit files on this site, I use [Obsidian](https://obsidian.md/), there's a vault in the repo that uses an html export feature to generate this site, with a few tweaks here and there for style and icon changes.
-### Game Design Documents
-Here, I'll write up game design documents, sometimes these will be just practice to get an idea of how to write one of these properly and get feedback, other times they may be actual games I plan on creating. In either case, you are free to use the ideas there for your own games, worst case scenario I can't imagine anyone would be able to create exactly the game I have in mind, and if they do, well then I don't have to make it, win win!
-Usually, I'll try to think of a one-sentence-pitch before writing a design document, you can find those over in Game ideas #TODO
+I've always learned best when teaching others what I know. That's why you'll see me sharing articles, tutorials, and code examples on this site - it helps me solidify my own understanding of topics and ensures that everything is explained in a way that's easy to grasp for all levels of experience.
 
-### Notes
-Everything you find here will be personal opinions, written from my point of view regarding development, project management, retrospectives and the likes. If you've ever wanted to get an idea of what I really think about things, that's where you'll find it.
+## About this site
+This site is dedicated to publishing **living documents**. The content here is constantly evolving as I continue learning and growing. Feel free to explore the history of the site and its articles through its [Github repository](https://github.com/Caaz/caaz.github.io). It might even give you some valuable insights into how my thoughts have developed over time!
 
-## Contact
-If you're looking to work with me, you should probably get to know what it's like working with me #TODO first. Otherwise, I'm always free to talk. The best way for internet strangers to reach me is through [bluesky @caaz.me](https://bsky.app/profile/caaz.me). 
+### Development
+This site was built using a variety of tools, frameworks, and good ol hyper-fixation. The pages are rendered via [Hugo](https://gohugo.io/), using a custom theme developed by myself, using the [Bulma](https://bulma.io/) with [Sass](https://sass-lang.com/).
+
+I write my content through [Obsidian](https://obsidian.md/), a markdown editor. To get cross-page links working, I've utilized [obsidian-export](https://github.com/zoni/obsidian-export), a rust CLI tool which converts obsidian markdown to a more standardized markdown format that Hugo can recognize (with a few tweaks in the rendering pipeline to ensure some specific bits are rendered properly.)
+
+All of this comes together nicely via [Github Actions](https://github.com/Caaz/caaz.github.io/actions) which build the site from the source code, ensuring I don't need to handle building and publishing manually, it's just *magic*. Would I recommend going through this much effort? Absolutely not.
+
+### Nothing here is written in stone
+
+Most of what you can find here is my personal opinion, and it's all subject to change! I'm always willing to discuss anything, and provide my point of view on any subject. I find writing very enjoyable, and I know I'm not infallible. Some day I'll likely read back on all of this and probably feel a little embarrassed, but that's part of growing, and I find it important.
+
+
+## Contact me
+In the links in the header, you'll find the various social media places to reach me. I'm open to working on projects, or discussing them. I don't know everything, but if I can help you in any way, don't hesitate to reach out!

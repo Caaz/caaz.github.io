@@ -22,9 +22,11 @@
         </div>
       </div>
     </div>
-    <div class="column is-narrow is-hidden-touch">
-      {{ .TableOfContents }}
-    </div>
+    {{ if .Fragments.Headings }}
+      <div class="column is-narrow is-hidden-touch">
+        {{ .TableOfContents }}
+      </div>
+    {{end}}
   </div>
   <footer class="footer">
     <div class="content has-text-centered">

@@ -46,6 +46,8 @@ jobs:
 
       - name: hugo
         uses: klakegg/actions-hugo@1.0.0
+        with:
+          image: ext-ubuntu
 
       - name: Upload static files as artifact
         id: deployment
