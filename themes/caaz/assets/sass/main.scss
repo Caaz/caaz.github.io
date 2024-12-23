@@ -35,7 +35,7 @@ body {
 #TableOfContents {
   @extend .menu;
   ul {
-    --bulma-menu-nested-list-padding-left:0;
+    // --bulma-menu-nested-list-padding-left:0;
     @extend .menu-list;
   }
 }
@@ -80,4 +80,8 @@ pre {
   code {
     background-color:var(--bulma-scheme-main)!important;
   }
+}
+table {
+  width: 100%;
+  background-color:var(--bulma-scheme-main)!important;
 }
