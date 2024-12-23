@@ -9,3 +9,9 @@
   <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
 {{ end }}
 
+{{ with resources.Get "docready/docready.js"}}
+  <script src="{{.RelPermalink}}"></script>
+{{end}}
+{{ with resources.Get "js/main.js"}}
+  <script src="{{.RelPermalink}}"></script>
+{{end}}
