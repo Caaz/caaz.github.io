@@ -1,0 +1,6 @@
+<ul>
+  {{ $current_page := .Page }}
+  {{ range .Site.Home.Pages }}
+    {{ partial "pages.html" (dict "Page" .Page "Current" $current_page) }}
+  {{ end }}
+</ul>

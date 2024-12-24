@@ -16,7 +16,7 @@
           <div class="uk-accordion-content">
             <ul>
               {{ range .Pages }}
-                {{ partial "page_list" (dict "Page" .Page "Current" $current_page) }}
+                {{ partial "pages.html" (dict "Page" .Page "Current" $current_page) }}
               {{ end }}
             </ul>
           </div>

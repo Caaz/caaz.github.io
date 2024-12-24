@@ -1,0 +1,18 @@
+<head>
+  <title>Title</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  {{ $opts := dict "transpiler" "dartsass" "targetPath" "css/style.css" }}
+  {{ with resources.Get "scss/main.scss" | toCSS $opts | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+  {{ end }}
+
+  {{ with resources.Get "uikit/dist/js/uikit.min.js"}}
+    <script src="{{.RelPermalink}}"></script>
+  {{end}}
+
+  {{ with resources.Get "uikit/dist/js/uikit-icons.min.js"}}
+    <script src="{{.RelPermalink}}"></script>
+  {{end}}
+</head>
