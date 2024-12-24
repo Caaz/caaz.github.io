@@ -4,3 +4,6 @@
 [submodule "assets/docready"]
 	path = assets/docready
 	url = https://github.com/jfriend00/docReady
+[submodule "assets/uikit"]
+	path = assets/uikit
+	url = https://github.com/uikit/uikit/

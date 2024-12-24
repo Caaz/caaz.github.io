@@ -1,4 +1,4 @@
 baseURL = 'http://caaz.me/'
 languageCode = 'en-us'
 title = 'Daniel / Caaz'
-theme = ["caaz"]
+theme = ["uikit"]

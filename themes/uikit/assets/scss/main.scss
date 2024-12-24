@@ -1,0 +1,38 @@
+// 1. Your custom variables and variable overwrites.
+$global-link-color: #DA7D02;
+
+// 2. Import default variables and available mixins.
+@import "../../../../assets/uikit/src/scss/variables-theme.scss";
+@import "../../../../assets/uikit/src/scss/mixins-theme.scss";
+
+// 4. Import UIkit.
+@import "../../../../assets/uikit/src/scss/uikit-theme.scss";
+
+.theme-dark {
+  @extend .uk-light;
+  --color-nav:#272739;
+  --color-background:#150e10;
+}
+.theme-light {
+  @extend .uk-dark;
+}
+body {
+  min-height:100vh;
+  background-color:var(--color-background);
+}
+nav:has(div[uk-navbar]) {
+  background-color: var(--color-nav)!important;
+}
+div:has(#page-list) {
+  min-width:15rem;
+}
+#page-list ul:not([uk-accordion]) {
+  @extend .uk-list;
+  a, li, ul {
+    @extend .uk-text-default;
+    @extend .uk-margin-remove;
+  }
+  div {
+    @extend .uk-margin-remove;
+  }
+}
