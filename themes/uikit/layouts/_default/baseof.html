@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html>
   {{ partial "head.html" . }}
-  <body class="theme-dark">
+  <body class="theme-dark uk-flex uk-flex-column">
     {{ partial "navbar.html" .}}
-    <div class="uk-flex uk-flex-center uk-flex-column uk-flex-row@m">
+    <div class="uk-flex-1 uk-flex uk-flex-center uk-flex-column uk-flex-row@m">
       <div id="page-list" class="uk-flex-none">
         {{ partial "page-list.html" . }}
       </div>
-      <div class="uk-flex uk-flex-1">
-        <div class="uk-container">
-          <main>
-            {{ block "main" . }}Nothing Rendered{{ end }}
-          </main>
-        </div>
-        <div id="table-of-contents">
-          {{ if .Fragments.Headings }}
-            {{ .TableOfContents }}
-          {{end}}
-        </div>
+      <div class="uk-flex-1">
+        <main id="content" class="uk-container">
+          <div id="table-of-contents" class="uk-float-right">
+            {{ if .Fragments.Headings }}
+              {{ .TableOfContents }}
+            {{end}}
+          </div>
+          {{ block "main" . }}Nothing Rendered{{ end }}
+        </main>
       </div>
     </div>
+    <footer class="uk-padding-large">
+      <div class="uk-child-width-1-2" uk-grid>
+        <div>Hello World</div>
+        <div>Why Hello</div>
+      </div>
+    </footer>
   </body>
 </html>

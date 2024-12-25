@@ -1,6 +1,7 @@
 // 1. Your custom variables and variable overwrites.
 $global-link-color: #DA7D02;
 $navbar-nav-item-height: 40px;
+$base-heading-margin-top: 0;
 // 2. Import default variables and available mixins.
 @import "../../../../assets/uikit/src/scss/variables-theme.scss";
 @import "../../../../assets/uikit/src/scss/mixins-theme.scss";
@@ -10,17 +11,27 @@ $navbar-nav-item-height: 40px;
 
 .theme-dark {
   @extend .uk-light;
-  --color-body-background:#150e10;
-  --color-content-background:#272739;
-  --color-main-background:#3b4152;
-  --color-navbar-background:#393849;
-  --color-navbar-text: white;
-  --color-toc-contents:#2a52be;
-  --color-page-list-background:red;
+  --color-body-background:#111;
+  --color-content-background:#222;
+  --color-content-text:#BBB;
+  --color-content-heading:#CCC;
+  --color-footer-background:#1A1A1A;
+  --color-navbar-background:#2A2A2A;
+  --color-navbar-text: #EEE;
+  --color-toc-contents:transparent;
+  --color-page-list-background:transparent;
 }
 .theme-light {
   @extend .uk-dark;
 }
+@mixin top {
+  clip-path: polygon(0 0,100% 0,100% calc(100% - 5em),calc(50% + 5em) calc(100% - 5em),50% 100%,calc(50% - 5em) calc(100% - 5em),0 calc(100% - 5em));
+}
+@mixin bottom {
+  clip-path: polygon(0 0,calc(50% - 0.1em - 5em) 0,50% calc(5em + 0.1em),calc(50% + 0.1em + 5em) 0,100% 0,100% 100%,0 100%);
+  margin-top: -4.75em;
+}
+
 body {
   min-height:100vh;
   background-color:var(--color-body-background);
@@ -29,6 +40,33 @@ body {
   background-color: var(--color-navbar-background);
   a {
     color: var(--color-navbar-text);;
+  }
+  margin-bottom:.25em;
+}
+div:has(#content) {
+  @include top;
+  padding-bottom:0em;
+  background-color:var(--color-content-background);
+}
+#content {
+  padding-top:1em;
+  padding-bottom:7em;
+  p, em {
+    color:var(--color-content-text);
+  }
+  h1,h2,h3,h4,h5,h6 {
+    color:var(--color-content-heading);
+  }
+}
+footer {
+  @include bottom;
+  padding-top:2em!important;
+  background-color:var(--color-footer-background);
+  > div {
+    padding-right:10em;
+    > div {
+      padding-left:10em !important;;
+    }
   }
 }
 #page-list {
@@ -46,9 +84,15 @@ body {
   }
 }
 #table-of-contents {
-  background-color:var(--color-toc-contents);
+  max-width:50%;
+  > nav { 
+    @extend .uk-card;
+    @extend .uk-card-body;
+    background-color:var(--color-toc-contents);
+  }
   ul {
     @extend .uk-list;
+    margin:0;
     ul {
       padding-left:1em;
     }
