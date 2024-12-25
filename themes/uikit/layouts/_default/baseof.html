@@ -7,15 +7,15 @@
       <div id="page-list" class="uk-flex-none">
         {{ partial "page-list.html" . }}
       </div>
-      <div class="uk-flex-1">
-        <main id="content" class="uk-container">
-          <div id="table-of-contents" class="uk-float-right">
-            {{ if .Fragments.Headings }}
-              {{ .TableOfContents }}
-            {{end}}
-          </div>
+      <div class="uk-flex-1 uk-flex">
+        <main id="content" class="uk-container uk-flex-grow">
           {{ block "main" . }}Nothing Rendered{{ end }}
         </main>
+        <div id="table-of-contents" class="uk-visible@l uk-flex-none">
+          {{ if .Fragments.Headings }}
+            {{ .TableOfContents }}
+          {{end}}
+        </div>
       </div>
     </div>
     <footer class="uk-padding-large">

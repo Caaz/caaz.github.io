@@ -49,12 +49,12 @@ div:has(#content) {
   background-color:var(--color-content-background);
 }
 #content {
-  padding-top:1em;
   padding-bottom:7em;
   p, em {
     color:var(--color-content-text);
   }
   h1,h2,h3,h4,h5,h6 {
+    padding-top:1rem;
     color:var(--color-content-heading);
   }
 }
@@ -70,9 +70,22 @@ footer {
   }
 }
 #page-list {
+  padding:1em;
   background-color:var(--color-page-list-background);
   min-width:15rem;
-  ul:not([uk-accordion]) {
+  > ul {
+    margin:0;
+  }
+  > ul > li {
+    padding-left:0!important;
+  }
+  li:not(:has(>.uk-accordion-title)) {
+    // border-left:1em solid red;
+    padding-left:1em;
+    // margin-left:-.5em;
+  }
+  ul:not([uk-accordion]){
+    // padding-left:.1em;
     @extend .uk-list;
     a, li, ul {
       @extend .uk-text-default;
@@ -86,15 +99,17 @@ footer {
 #table-of-contents {
   max-width:50%;
   > nav { 
-    @extend .uk-card;
-    @extend .uk-card-body;
+    padding:1em;
     background-color:var(--color-toc-contents);
   }
   ul {
     @extend .uk-list;
-    margin:0;
+    margin:0!important;
     ul {
       padding-left:1em;
+    }
+    li {
+      @extend .uk-margin-remove;
     }
   }
 }
