@@ -12,7 +12,8 @@
     <li>
       <ul uk-accordion>
         <li>
-          <a class="uk-accordion-title" href>{{.Key.Title}}</a>
+          <a class="uk-accordion-title" href><span uk-icon="icon:chevron-down"></span><span uk-icon="chevron-right"></span></a>
+          <a class="index-link" href={{ .Key.Permalink }}>{{.Key.Title}}</a>
           <div class="uk-accordion-content">
             <ul>
               {{ range .Pages }}

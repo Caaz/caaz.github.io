@@ -74,6 +74,21 @@ footer {
   padding:1em;
   background-color:var(--color-page-list-background);
   min-width:15rem;
+  .index-link {
+    display:inline;
+  }
+  .uk-accordion-title {
+    display:inline;
+    span {
+      @extend .uk-icon-link;
+      display:none;
+    }
+    &[aria-expanded="true"] > span:first-child { display:inline; }
+    &[aria-expanded="false"] > span:last-child { display:inline; }
+    &::before {
+      display:none;
+    }
+  }
   > ul {
     margin:0;
   }
@@ -81,12 +96,9 @@ footer {
     padding-left:0!important;
   }
   li:not(:has(>.uk-accordion-title)) {
-    // border-left:1em solid red;
-    padding-left:1em;
-    // margin-left:-.5em;
+    padding-left:1.55em;
   }
   ul:not([uk-accordion]){
-    // padding-left:.1em;
     @extend .uk-list;
     a, li, ul {
       @extend .uk-text-default;
