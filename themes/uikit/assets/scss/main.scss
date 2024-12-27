@@ -27,15 +27,19 @@ $base-heading-margin-top: 0;
   @extend .uk-dark;
 }
 
+@mixin link {
+  color: var(--color-link);
+  &:hover {
+    color: var(--color-link-hover);
+  }
+}
+
 body {
   min-height:100vh;
   background-color:var(--color-body-background);
 }
 #navbar {
   background-color: var(--color-navbar-background);
-  a {
-    // color: var(--color-link);
-  }
   margin-bottom:.25rem;
 }
 div:has(#content) {
@@ -44,12 +48,7 @@ div:has(#content) {
 }
 #content {
   padding-bottom:1em;
-  a {
-    color: var(--color-link);
-    &:hover {
-      color: var(--color-link-hover)
-    }
-  }
+  a { @include link; }
   p, em {
     color:var(--color-content-text);
   }
@@ -71,40 +70,34 @@ footer {
   }
 }
 #page-list {
+  // a { font-size:10pt!important; }
   padding:1em;
   background-color:var(--color-page-list-background);
   min-width:15rem;
-  .index-link {
-    display:inline;
-  }
+  // Highlight the selected page, as well as the folders that are selected.
+  .active, a:has(+ div .active) { @include link; }
   .uk-accordion-title {
     display:inline;
+    // Hide expand icons normally, style them like icon links.
     span {
-      @extend .uk-icon-link;
       display:none;
+      // @include link;
     }
     &[aria-expanded="true"] > span:first-child { display:inline; }
     &[aria-expanded="false"] > span:last-child { display:inline; }
-    &::before {
-      display:none;
-    }
+    // Hide original Uikit icon expand icon
+    &::before { display:none; }
   }
-  > ul {
-    margin:0;
-  }
-  > ul > li {
-    padding-left:0!important;
-  }
-  li:not(:has(>.uk-accordion-title)) {
-    padding-left:1.55em;
-  }
+  // Ensure top-level pages aren't indented
+  > ul > li { padding-left:0!important; }
+  // Indent all other page links.
+  li:not(:has(>.uk-accordion-title)) { padding-left:1.25em; }
+  // Style lists that aren't the accordion like uk-lists.
   ul:not([uk-accordion]){
     @extend .uk-list;
-    a, li, ul {
+    li, ul, div, a {
+      // Ensure text and spacing is correct
       @extend .uk-text-default;
-      @extend .uk-margin-remove;
-    }
-    div {
       @extend .uk-margin-remove;
     }
   }

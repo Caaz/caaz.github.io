@@ -2,7 +2,7 @@
 {{ if .Page.IsPage }}
 <!-- Single Page -->
   <li>
-    <a class="{{if .Page.Eq .Current }}active{{ end }} pr-5" href="{{.Page.Permalink}}">
+    <a {{if .Page.Eq .Current }}class="active"{{ end }} href="{{.Page.Permalink}}">
       {{.Page.Title}}
     </a>
   </li>
@@ -11,9 +11,9 @@
   {{ range .Page.Pages.GroupBy "Parent" }}
     <li>
       <ul uk-accordion>
-        <li>
-          <a class="uk-accordion-title" href><span uk-icon="icon:chevron-down"></span><span uk-icon="chevron-right"></span></a>
-          <a class="index-link" href={{ .Key.Permalink }}>{{.Key.Title}}</a>
+        <li {{ if .Key.IsAncestor $current_page }}class="uk-open"{{ end }}>
+          <a class="uk-accordion-title" href><span uk-icon="icon:chevron-down;ratio:.75"></span><span uk-icon="icon:chevron-right;ratio:.75"></span></a>
+          <a {{if .Key.Eq $current_page }}class="active"{{ end }} href={{ .Key.Permalink }}>{{.Key.Title}}</a>
           <div class="uk-accordion-content">
             <ul>
               {{ range .Pages }}
