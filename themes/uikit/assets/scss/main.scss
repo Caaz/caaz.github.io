@@ -20,16 +20,11 @@ $base-heading-margin-top: 0;
   --color-navbar-text: #EEE;
   --color-toc-contents:transparent;
   --color-page-list-background:transparent;
+  --color-link:#aa88cc;
+  --color-link-hover:#ccbbee;
 }
 .theme-light {
   @extend .uk-dark;
-}
-@mixin top {
-  clip-path: polygon(0 0,100% 0,100% calc(100% - 5em),calc(50% + 5em) calc(100% - 5em),50% 100%,calc(50% - 5em) calc(100% - 5em),0 calc(100% - 5em));
-}
-@mixin bottom {
-  clip-path: polygon(0 0,calc(50% - 0.1em - 5em) 0,50% calc(5em + 0.1em),calc(50% + 0.1em + 5em) 0,100% 0,100% 100%,0 100%);
-  margin-top: -4.75em;
 }
 
 body {
@@ -39,27 +34,33 @@ body {
 #navbar {
   background-color: var(--color-navbar-background);
   a {
-    color: var(--color-navbar-text);;
+    // color: var(--color-link);
   }
-  margin-bottom:.25em;
+  margin-bottom:.25rem;
 }
 div:has(#content) {
-  @include top;
   padding-bottom:0em;
   background-color:var(--color-content-background);
 }
 #content {
-  padding-bottom:7em;
+  padding-bottom:1em;
+  a {
+    color: var(--color-link);
+    &:hover {
+      color: var(--color-link-hover)
+    }
+  }
   p, em {
     color:var(--color-content-text);
   }
   h1,h2,h3,h4,h5,h6 {
-    padding-top:1rem;
+    margin-top:1rem;
+    margin-bottom:-1.25rem;
     color:var(--color-content-heading);
   }
 }
 footer {
-  @include bottom;
+  margin-top:.25rem;
   padding-top:2em!important;
   background-color:var(--color-footer-background);
   > div {

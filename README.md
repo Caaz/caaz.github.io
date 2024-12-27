@@ -11,7 +11,7 @@ This repository is the source of a portfolio / blog site I have!
 - [x] I want to ensure links are *more* permanent.
 
 ### Theme
-- [x] I want to allow users to switch between light and dark modes
+- [ ] I want to allow users to switch between light and dark modes
 
 ## Development
 

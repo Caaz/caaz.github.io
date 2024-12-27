@@ -1,7 +1,11 @@
 <head>
-  <title>Title</title>
+  <title>{{ .Site.Title }}{{ if not (.Page.Eq .Site.Home) }} | {{ .Page.Title }}{{ end }}</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  {{ with resources.Get "favicon.svg"}}
+    <link rel="icon" href={{ .RelPermalink }}>
+  {{end}}
 
   {{ $opts := dict "transpiler" "dartsass" "targetPath" "css/style.css" }}
   {{ with resources.Get "scss/main.scss" | toCSS $opts | minify | fingerprint }}
