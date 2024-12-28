@@ -3,7 +3,7 @@
   {{ partial "head.html" . }}
   <body class="theme-dark uk-flex uk-flex-column">
     {{ partial "navbar.html" .}}
-    <div class="uk-flex-1 uk-flex uk-flex-center uk-flex-column uk-flex-row@l">
+    <div class="uk-flex-1 uk-flex uk-flex-center uk-flex-column uk-flex-row@m">
       <div id="page-list" class="uk-flex-none">
         {{ partial "page-list.html" . }}
       </div>
@@ -18,8 +18,13 @@
         </div>
       </div>
     </div>
-    <footer class="uk-padding-large uk-text-center">
-      <p>This is where I'd put my footer content, if I had any.</p>
+    <footer class="uk-padding-large">
+      <div class="uk-flex-center" uk-grid>
+        {{ partial "time_definition" (dict "Term" "Created At" "Value" .Page.Date)}}
+        {{ partial "time_definition" (dict "Term" "Updated At" "Value" .Page.Lastmod)}}
+        {{ partial "conditional_definition" (dict "Term" "Author" "Value" (.Page.Param "author"))}}
+        {{ partial "conditional_definition" (dict "Term" "Description" "Value" (.Page.Param "description"))}}
+      </div>
     </footer>
   </body>
 </html>

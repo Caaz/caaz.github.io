@@ -1,7 +1,8 @@
 ---
 title: Working With Me
-date: 2024-12-22
+date: 2024-12-22T20:51:33
 draft: false
+lastmod: 2024-12-27T20:27:45
 ---
 ## Primer
 As a developer I've had the chance to work with many teams, professionals, and hobbyists. Over the years I've really discovered what values I consider important to me while working, and I think those values would be useful to those who want to work with me in the future. 

@@ -22,15 +22,21 @@ $base-heading-margin-top: 0;
   --color-page-list-background:transparent;
   --color-link:#aa88cc;
   --color-link-hover:#ccbbee;
+  --color-card-background:#333;
+  --color-card-border: #444;
+
+  --code-text:#CCC;
+  --code-string:#cc8888;
+  --code-built-in:#ccaaee;
 }
 .theme-light {
   @extend .uk-dark;
 }
 
 @mixin link {
-  color: var(--color-link);
+  color: var(--color-link) !important;
   &:hover {
-    color: var(--color-link-hover);
+    color: var(--color-link-hover)!important;
   }
 }
 
@@ -46,22 +52,58 @@ div:has(#content) {
   padding-bottom:0em;
   background-color:var(--color-content-background);
 }
+
 #content {
   padding-bottom:1em;
+  .uk-card {
+    background-color:var(--color-card-background);
+    &:hover {
+      .uk-link-heading {
+        color:var(--color-link);
+      }
+    }
+  }
+  .uk-card-header {
+    border-color:var(--color-card-border);
+  }
   a { @include link; }
   p, em {
     color:var(--color-content-text);
+    code {
+      font-weight: bold;
+      background-color: var(--color-footer-background);
+      color: var(--code-text);
+    }
   }
   h1,h2,h3,h4,h5,h6 {
     margin-top:1rem;
     margin-bottom:-1.25rem;
     color:var(--color-content-heading);
   }
+  pre {
+    padding:0;
+    border:2px solid var(--color-navbar-background);
+    background-color:var(--color-footer-background);
+    color:var(--code-text);
+    .hljs-built_in {
+      color:var(--code-built-in);
+    }
+    .hljs-string {
+      color:var(--code-string);
+    }
+  }
 }
 footer {
   margin-top:.25rem;
   padding-top:2em!important;
   background-color:var(--color-footer-background);
+  .uk-description-list {
+    margin:0;
+    dt {
+      color:var(--color-content-heading);
+      font-weight:bold;
+    }
+  }
   > div {
     padding-right:10em;
     > div {
@@ -75,7 +117,17 @@ footer {
   background-color:var(--color-page-list-background);
   min-width:15rem;
   // Highlight the selected page, as well as the folders that are selected.
-  .active, a:has(+ div .active) { @include link; }
+  .active, a:has(+ div .active) {
+    @include link;
+  }
+  a {
+    @extend .uk-button;
+    @extend .uk-button-text;
+    @extend .uk-text-capitalize;
+    &::before {
+      border-color: var(--color-link)!important;
+    }
+  }
   .uk-accordion-title {
     display:inline;
     // Hide expand icons normally, style them like icon links.

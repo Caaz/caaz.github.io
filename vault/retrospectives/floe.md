@@ -1,8 +1,9 @@
 ---
 title: FLOE
-date: 2024-12-22
+date: 2024-12-22T21:24:45
 draft: false
 summary: "Floe was an ice skating platformer game created for SpeedJam #8, where players could perform tricks to gain speed. The game ranked #7 out of 104 entries, but the team faced challenges in its development process, including inefficient scene management and difficulties with LootLocker's API."
+lastmod: 2024-12-27T20:25:55
 ---
 ## Summary
 https://pontax.itch.io/floe

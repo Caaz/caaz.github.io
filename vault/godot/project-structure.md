@@ -1,8 +1,9 @@
 ---
 title: Project Structure
-date: 2024-12-22
+date: 2024-12-22T21:35:19
 draft: false
 summary: A suggested project structure for Godot projects involves separating scene-specific scripts from global scripts and placing them in their respective folders, making it easier to manage and refactor code.
+lastmod: 2024-12-27T20:25:20
 ---
 Generally, the project structure I've seen most is as follows:
 ```

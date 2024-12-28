@@ -1,0 +1,6 @@
+{{if .Value }}
+<dl class="uk-description-list">
+  <dt>{{.Term}}</dt>
+  <dd>{{ time.AsTime .Value | time.Format "02 January 2006 15:04:05 MST" }}</dd>
+</dl>
+{{end}}

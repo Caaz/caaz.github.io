@@ -7,3 +7,6 @@
 [submodule "assets/uikit"]
 	path = assets/uikit
 	url = https://github.com/uikit/uikit/
+[submodule "assets/highlightjs-gdscript"]
+	path = assets/highlightjs-gdscript
+	url = https://github.com/exercism/highlightjs-gdscript

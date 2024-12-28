@@ -1,7 +1,8 @@
 ---
 title: Daniel / Caaz
-date: 2024-12-21
+date: 2024-12-22T19:37:20
 draft: false
+lastmod: 2024-12-27T20:27:50
 ---
 
 ## About me

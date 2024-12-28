@@ -1,4 +1,18 @@
 {{ define "main" }}
-  <h1 class="uk-heading-line uk-text-center"><span>{{ .Title }}</span></h1>
-  {{ .Content }}
+  {{ partial "page.html" . }}
+  <div class="uk-child-width-1-2@m uk-margin uk-grid-match" uk-grid>
+    {{ range .Pages }}
+      <div>
+        <a href="{{.RelPermalink}}" class="uk-card-hover uk-card-small uk-link-toggle uk-card uk-card-default">
+          <div class="uk-card-header">
+            <h2 class="uk-card-title uk-margin-remove"><span class="uk-link-heading">{{.Title}}</span></h2>
+          </div>
+          <div class="uk-card-body">
+            <p>{{.Summary}}</p>
+          </div>
+          <!-- <div class="uk-card-footer">oof</div> -->
+        </a>
+      </div>
+    {{end}}
+</div>
 {{ end }}

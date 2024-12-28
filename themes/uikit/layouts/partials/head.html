@@ -2,6 +2,13 @@
   <title>{{ .Site.Title }}{{ if not (.Page.Eq .Site.Home) }} | {{ .Page.Title }}{{ end }}</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  {{ if .Page.Description }}
+    <meta name="description" content={{.Page.Description}}>
+  {{ end }}
+  {{ if .Page.Param "author" }}
+    <meta name="author" content={{.Page.Param "author"}}>
+  {{ end }}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
 
   {{ with resources.Get "favicon.svg"}}
     <link rel="icon" href={{ .RelPermalink }}>
@@ -17,6 +24,13 @@
   {{end}}
 
   {{ with resources.Get "uikit/dist/js/uikit-icons.min.js"}}
+    <script src="{{.RelPermalink}}"></script>
+  {{end}}
+
+  {{ with resources.Get "docready/docready.js"}}
+    <script src="{{.RelPermalink}}"></script>
+  {{end}}
+  {{ with resources.Get "js/main.js" | js.Build (dict "minify" true) | fingerprint}}
     <script src="{{.RelPermalink}}"></script>
   {{end}}
 </head>
