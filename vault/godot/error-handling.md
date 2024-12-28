@@ -3,12 +3,12 @@ title: Error Handling
 date: 2024-12-22T21:33:56
 draft: false
 summary: Error handling in Godot involves using defensive programming practices to prevent games from crashing due to invalid states. The "return early" pattern is one such practice, which is described here.
-lastmod: 2024-12-27T20:25:27
+lastmod: 2024-12-27T21:15:45
 ---
 Godot doesn't have traditional error handling, so we should use [defensive programming](https://en.wikipedia.org/wiki/Defensive_programming) practices to ensure our games don't explode on users.
 
 ## Return Early
-> If it can't be done, do nothing.
+*If it can't be done, do nothing.*
 
 One of the easiest ways to apply defensive programming in godot is to [return early](https://medium.com/swlh/return-early-pattern-3d18a41bba8) on invalid states. The basic idea is that the reader of our code mostly cares about the "happy path". This breaks most functions down into two parts: "Check invalid states", "Do what the function is named for"
 

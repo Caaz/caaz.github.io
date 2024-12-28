@@ -3,8 +3,9 @@ title: Project Structure
 date: 2024-12-22T21:35:19
 draft: false
 summary: A suggested project structure for Godot projects involves separating scene-specific scripts from global scripts and placing them in their respective folders, making it easier to manage and refactor code.
-lastmod: 2024-12-27T20:25:20
+lastmod: 2024-12-27T21:14:36
 ---
+## The usual
 Generally, the project structure I've seen most is as follows:
 ```
 addons
@@ -28,8 +29,9 @@ shaders
 ```
 
 What winds up happening is the scripts wind up in the scenes folder and we wind up refactoring eventually which can get messy.
-I suggest a scene oriented approach instead:
 
+## An alternative
+I suggest a scene oriented approach instead:
 
 ```
 addons

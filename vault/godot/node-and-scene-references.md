@@ -3,8 +3,9 @@ title: Node and Scene References
 date: 2024-12-22T21:39:16
 draft: false
 summary: Node and scene references in Godot scripts can be referenced using various methods, but some should be avoided due to potential issues with scene restructuring or node name changes.
-lastmod: 2024-12-27T20:25:32
+lastmod: 2024-12-27T21:14:58
 ---
+## The typical cases
 Like all programming problems, referencing a node or scene in a Godot script can be done in many ways. I've found that some of these ways can raise issues during development that can cause problems, and should probably be avoided because of it.
 
 ```
@@ -18,10 +19,12 @@ Like all programming problems, referencing a node or scene in a Godot script can
 @export var some_node:Node
 ```
 
+### The problems
 The first two suffer from an annoying issue, if we happen to restructure the scene's tree, and move `SomeNode` to a child of a different node, the script breaks, and we have to go in and modify the script to resolve it.
 
 The third option is safe from that problem of course, but it runs into a different issue: If you happen to change that node's name, it once again breaks our script causing us to refactor again.
 
+### The solutions
 The fourth however, an exported variable, I believe is the best solution, it's immune from both of the previous issues, as Godot will track when the name or location of the node changes. Additionally, it forces us to properly type hint the node.
 
 Scene references have less options for referencing them, but again, I'd avoid hard-coding the path for scenes in a script, as again, moving that file around will break that script. An exported variable instead work well to avoid that.
