@@ -2,11 +2,11 @@
   <title>{{ .Site.Title }}{{ if not (.Page.Eq .Site.Home) }} | {{ .Page.Title }}{{ end }}</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  {{ if .Page.Description }}
-    <meta name="description" content={{.Page.Description}}>
+  {{ if .Page.Summary }}
+    <meta name="description" content={{.Page.Summary}}>
   {{ end }}
-  {{ if .Page.Param "author" }}
-    <meta name="author" content={{.Page.Param "author"}}>
+  {{ if .Site.Param "author" }}
+    <meta name="author" content={{.Site.Param "author"}}>
   {{ end }}
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
 

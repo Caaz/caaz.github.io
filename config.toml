@@ -5,3 +5,4 @@ theme = ["uikit"]
 
 [params]
 username = 'caaz.me'
+author = 'Daniel Cavazos'
