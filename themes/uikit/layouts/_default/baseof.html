@@ -4,6 +4,7 @@
   <body class="theme-dark uk-flex uk-flex-column">
     <div id="offcanvas-table-of-contents" uk-offcanvas="mode: slide; overlay: true; flip: true;">
       <div class="table-of-contents uk-offcanvas-bar">
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
         {{ if .Fragments.Headings }}
           {{ .TableOfContents }}
         {{end}}
