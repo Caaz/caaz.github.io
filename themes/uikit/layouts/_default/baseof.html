@@ -8,9 +8,12 @@
         {{ partial "page-list.html" . }}
       </div>
       <div class="uk-flex-1 uk-flex">
-        <main id="content" class="uk-container uk-flex-grow">
-          {{ block "main" . }}Nothing Rendered{{ end }}
-        </main>
+        <div class="uk-flex-1">
+          <main id="content" class="uk-container">
+            {{ block "main" . }}Nothing Rendered{{ end }}
+          </main>
+          {{ partial "comments" .}}
+        </div>
         <div id="table-of-contents" class="uk-visible@l uk-flex-none">
           {{ if .Fragments.Headings }}
             {{ .TableOfContents }}
@@ -18,13 +21,5 @@
         </div>
       </div>
     </div>
-    <footer class="uk-padding-large">
-      <div class="uk-flex-center" uk-grid>
-        {{ partial "time_definition" (dict "Term" "Created At" "Value" .Page.Date)}}
-        {{ partial "time_definition" (dict "Term" "Updated At" "Value" .Page.Lastmod)}}
-        {{ partial "conditional_definition" (dict "Term" "Author" "Value" (.Page.Param "author"))}}
-        {{ partial "conditional_definition" (dict "Term" "Description" "Value" (.Page.Param "description"))}}
-      </div>
-    </footer>
   </body>
 </html>

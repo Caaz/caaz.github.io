@@ -2,3 +2,6 @@ baseURL = 'http://caaz.me/'
 languageCode = 'en-us'
 title = 'Daniel / Caaz'
 theme = ["uikit"]
+
+[params]
+username = 'caaz.me'

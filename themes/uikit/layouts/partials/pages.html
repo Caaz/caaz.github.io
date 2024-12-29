@@ -16,7 +16,7 @@
           <a {{if .Key.Eq $current_page }}class="active"{{ end }} href={{ .Key.Permalink }}>{{.Key.Title}}</a>
           <div class="uk-accordion-content">
             <ul>
-              {{ range .Pages }}
+              {{ range .Pages.ByTitle }}
                 {{ partial "pages.html" (dict "Page" .Page "Current" $current_page) }}
               {{ end }}
             </ul>

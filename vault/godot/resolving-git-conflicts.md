@@ -3,7 +3,8 @@ title: Resolving Git Conflicts
 date: 2024-12-22T21:36:30
 draft: false
 summary: When using Git with Godot projects, conflicts can arise during merges or pulls due to changes made to scene files (.tscn) and external resources. This document provides guidance on resolving these conflicts.
-lastmod: 2024-12-27T21:14:05
+lastmod: 2024-12-28T20:55:38
+post: 3leapixxbs727
 ---
 ## Summary
 When using git, Godot scenes (.tscn) files tend to conflict very easily, any new node or resource added to the scene will modify the first line of the scene file:
@@ -22,4 +23,4 @@ Each external resource has a path and an id, the id is used to reference that re
 script = ExtResource("1_427ti")
 ```
 
-In the event that Godot returns a "missing resource" error and the resource *is* defined in the scene, it's likely that we've got a circular dependency. More info in [[Node and Scene References#Circular Dependencies]]
+In the event that Godot returns a "missing resource" error and the resource *is* defined in the scene, it's likely that we've got a circular dependency. More info in [[node-and-scene-references#Circular Dependencies]]
