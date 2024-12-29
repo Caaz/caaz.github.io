@@ -2,7 +2,7 @@
 title: Daniel / Caaz
 date: 2024-12-22T19:37:20
 draft: false
-lastmod: 2024-12-27T20:27:50
+lastmod: 2024-12-29T14:46:01
 ---
 
 ## About me
@@ -14,7 +14,7 @@ I've always learned best when teaching others what I know. That's why you'll see
 This site is dedicated to publishing **living documents**. The content here is constantly evolving as I continue learning and growing. Feel free to explore the history of the site and its articles through its [Github repository](https://github.com/Caaz/caaz.github.io). It might even give you some valuable insights into how my thoughts have developed over time!
 
 ### Development
-This site was built using a variety of tools, frameworks, and good ol hyper-fixation. The pages are rendered via [Hugo](https://gohugo.io/), using a custom theme developed by myself, using the [Bulma](https://bulma.io/) with [Sass](https://sass-lang.com/).
+This site was built using a variety of tools, frameworks, and good ol hyper-fixation. The pages are rendered via [Hugo](https://gohugo.io/), using a custom theme developed by myself, using the [UIKit Framework](https://getuikit.com/) with [Sass](https://sass-lang.com/).
 
 I write my content through [Obsidian](https://obsidian.md/), a markdown editor. To get cross-page links working, I've utilized [obsidian-export](https://github.com/zoni/obsidian-export), a rust CLI tool which converts obsidian markdown to a more standardized markdown format that Hugo can recognize (with a few tweaks in the rendering pipeline to ensure some specific bits are rendered properly.)
 
