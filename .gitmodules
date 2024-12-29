@@ -1,0 +1,12 @@
+[submodule "assets/docready"]
+	path = assets/docready
+	url = https://github.com/jfriend00/docReady
+[submodule "assets/uikit"]
+	path = assets/uikit
+	url = https://github.com/uikit/uikit/
+[submodule "assets/highlightjs-gdscript"]
+	path = assets/highlightjs-gdscript
+	url = https://github.com/exercism/highlightjs-gdscript
+[submodule "assets/dompurify"]
+	path = assets/dompurify
+	url = git@github.com:cure53/DOMPurify.git

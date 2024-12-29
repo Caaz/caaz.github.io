@@ -1,0 +1,10 @@
+public
+static
+resources
+
+# This appears to be specifically for obsidian UI, dealing with conflicts is annoying and seemingly uneccessary.
+vault/.obsidian/workspace.json
+
+# Don't commit content, but ensure the folder exists
+content/*
+!content/.KEEP

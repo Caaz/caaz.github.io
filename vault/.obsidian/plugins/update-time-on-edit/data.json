@@ -1,0 +1,25 @@
+{
+  "dateFormat": "yyyy-MM-dd'T'HH:mm:ss",
+  "enableCreateTime": true,
+  "headerUpdated": "lastmod",
+  "headerCreated": "date",
+  "minMinutesBetweenSaves": 1,
+  "ignoreGlobalFolder": [
+    "_templates"
+  ],
+  "ignoreCreatedFolder": [],
+  "enableExperimentalHash": false,
+  "fileHashMap": {
+    "working-with-me.md": "97ed10c12ec279064e7894280fc5eafb3f1f356328ff6596498c35186d2a0d19",
+    "retrospectives/floe.md": "bf6e4e080d0fa68d269cc724c2484efad5d92494f348829eafdc800dc148e401",
+    "retrospectives/_index.md": "63ee264c1e85f5622c0037d92b3d1c986b212cf991cd5b5a1e5b3b07af32c471",
+    "godot/resolving-git-conflicts.md": "0bd23d72b33b860867c3f24a2376af3860ee68c0f57cb5fb94e37f02188665c6",
+    "godot/project-structure.md": "e69c99cbbd8103327ec3ea4b499dd8e00247831174f1c4a5a65b0d434dfa6977",
+    "godot/node-and-scene-references.md": "158c1ddd01e1a69e5f14488fa3f0973993fcc192c258261b2bf6e7c65c77cc69",
+    "godot/error-handling.md": "259d45185f0797659a22682e05dcd98a4406b7cddc4914e1e7dcd682bf128e83",
+    "godot/_index.md": "3fd9badc17393253ff8c44b2e592ba1dd4770041104bd2f929db8d3fc6502b1c",
+    "game-ideas.md": "8010223c63c41cfce3c4c36c415d627211ebe205040669d0bc5c462c84671dba",
+    "_index.md": "ca4190f59be2201c394ca0fff7b701324e0b9ab304d89b28a03afd59f89e0168",
+    "_templates/page.md": "a050bcf1a8d3f6085966b1639dcb7b9cc6a5b4d1f4da7538d3bafe920d78d56e"
+  }
+}

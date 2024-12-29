@@ -1,0 +1,24 @@
+<div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; end: + *;">
+  <nav id="navbar" class="uk-navbar-container">
+    <div class="uk-container">
+      <div uk-navbar>
+
+        <div class="uk-navbar-left">
+
+          <ul class="uk-navbar-nav">
+            <li class="uk-hidden@xl"><a class="uk-icon-link" uk-icon="menu" uk-toggle="target: #offcanvas-page-list"></a></li>
+            <li><a href="/">Daniel / Caaz</a></li>
+          </ul>
+        </div>
+        <div class="uk-navbar-right">
+          <ul class="uk-navbar-nav">
+            <li><a href="https://bsky.app/profile/caaz.me" uk-icon="icon: bluesky"></a></li>
+            {{ if .Fragments.Headings }}
+            <li class="uk-hidden@l"><a class="uk-icon-link" uk-icon="icon: list" uk-toggle="target: #offcanvas-table-of-contents"></a></li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>

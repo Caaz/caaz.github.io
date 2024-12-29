@@ -1,0 +1,6 @@
+<ul class="uk-margin-remove">
+  {{ $current_page := .Page }}
+  {{ range .Site.Home.Pages.ByTitle }}
+    {{ partial "pages.html" (dict "Page" .Page "Current" $current_page) }}
+  {{ end }}
+</ul>

@@ -1,0 +1,13 @@
+{{ $user := .Site.Param "username" }}
+{{ $post := .Page.Param "post" }}
+{{ if and $user $post }}
+<section id="comments">
+  <div class="uk-margin-top uk-container">
+    <h2 class="uk-article-title uk-text-center"><span class="uk-border-pill">Comments</span></h2>
+    <span class="uk-text-meta">You can use your Bluesky account to <a href="https://bsky.app/profile/{{$user}}/post/{{$post}}">comment</a> on this post!</span>
+    <ul id="bluesky-comments" class="uk-comment-list" data-username="{{$user}}" data-post="{{$post}}">
+      <li class="uk-text-center"><div uk-spinner></div></li>
+    </ul>
+  </div>
+</section>
+{{ end }}

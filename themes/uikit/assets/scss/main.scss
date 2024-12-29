@@ -1,0 +1,221 @@
+// 1. Your custom variables and variable overwrites.
+$global-link-color: #DA7D02;
+$navbar-nav-item-height: 40px;
+$global-color: #96c;
+$base-heading-margin-top: 0;
+$comment-list-padding-left: 1em;
+$comment-list-padding-left-m: 1em;
+$comment-list-margin-top: 1rem;
+// 2. Import default variables and available mixins.
+@import "../../../../assets/uikit/src/scss/variables-theme.scss";
+@import "../../../../assets/uikit/src/scss/mixins-theme.scss";
+
+// 4. Import UIkit.
+@import "../../../../assets/uikit/src/scss/uikit-theme.scss";
+
+.theme-dark {
+  @extend .uk-light;
+  --color-body-background:#111;
+  --color-content-background:#2A2A2A;
+  --color-content-text:#BBB;
+  --color-content-heading:#CCC;
+  --color-footer-background:#1A1A1A;
+  --color-comments-background:#1A1A1A;
+  --color-navbar-background:#333;
+  --color-navbar-link: #97f;
+  --color-navbar-link-hover: #a9e;
+  --color-toc-background:#222;
+  --color-page-list-background:#222;
+  --color-link:#98c;
+  --color-link-hover:#bbe;
+  --color-card-background:#333;
+  --color-card-border: #444;
+  --color-comment-badge-background: #444;
+  --color-comment-badge-text: #bbb;
+  --color-table-border:#262626;
+  --color-table-heading-background:#262626;
+  --code-text:#CCC;
+  --code-string:#cc8888;
+  --code-built-in:#ccaaee;
+}
+.theme-light {
+  @extend .uk-dark;
+}
+
+@mixin link {
+  color: var(--color-link) !important;
+  &:hover {
+    color: var(--color-link-hover)!important;
+  }
+}
+table {
+  @extend .uk-table;
+  @extend .uk-table-small;
+  @extend .uk-table-responsive;
+  // @extend .uk-table-divider;
+  border:2px solid var(--color-table-border);
+  th {
+    background-color:var(--color-table-heading-background);
+  }
+  tr:nth-child(even) {
+    background-color:var(--color-table-heading-background);
+  }
+}
+body {
+  min-height:100vh;
+  background-color:var(--color-body-background);
+}
+#navbar {
+  background-color: var(--color-navbar-background);
+  a {
+    color: var(--color-navbar-link);
+    &:hover {
+      color: var(--color-navbar-link-hover)
+    }
+  }
+  // margin-bottom:.25rem;
+}
+div:has(#content) {
+  padding-bottom:0em;
+  background-color:var(--color-content-background);
+}
+
+#content {
+  .uk-article-title {
+    margin-bottom:0;
+  }
+  padding-bottom:2em;
+  .uk-card {
+    background-color:var(--color-card-background);
+    &:hover .uk-link-heading {
+      color:var(--color-link);
+    }
+  }
+  .uk-card-header {
+    border-color:var(--color-card-border);
+  }
+  a { @include link; }
+  p, em {
+    color:var(--color-content-text);
+    code {
+      font-weight: bold;
+      background-color: var(--color-footer-background);
+      color: var(--code-text);
+    }
+  }
+  h1 {
+    margin-top:.5em;
+  }
+  h1,h2,h3,h4,h5,h6 {
+    color:var(--color-content-heading);
+  }
+  pre {
+    padding:.5em;
+    border:2px solid var(--color-navbar-background);
+    background-color:var(--color-footer-background);
+    color:var(--code-text);
+    .hljs-built_in {
+      color:var(--code-built-in);
+    }
+    .hljs-string {
+      color:var(--code-string);
+    }
+  }
+}
+footer {
+  // margin-top:.25rem;
+  background-color:var(--color-footer-background);
+  .uk-description-list {
+    margin:0;
+    dt {
+      color:var(--color-content-heading);
+      font-weight:bold;
+    }
+  }
+  > div {
+    padding-right:10em;
+    > div {
+      padding-left:10em !important;;
+    }
+  }
+}
+.page-list {
+  // a { font-size:10pt!important; }
+  padding:1em;
+  background-color:var(--color-page-list-background);
+  min-width:15rem;
+  // Highlight the selected page, as well as the folders that are selected.
+  .active, a:has(+ div .active) {
+    @include link;
+  }
+  a {
+    @extend .uk-button;
+    @extend .uk-button-text;
+    @extend .uk-text-capitalize;
+    &::before {
+      border-color: var(--color-link)!important;
+    }
+  }
+  .uk-accordion-title {
+    display:inline;
+    // Hide expand icons normally, style them like icon links.
+    span {
+      display:none;
+      // @include link;
+    }
+    &[aria-expanded="true"] > span:first-child { display:inline; }
+    &[aria-expanded="false"] > span:last-child { display:inline; }
+    // Hide original Uikit icon expand icon
+    &::before { display:none; }
+  }
+  // Ensure top-level pages aren't indented
+  > ul > li { padding-left:0!important; }
+  // Indent all other page links.
+  li:not(:has(>.uk-accordion-title)) { padding-left:1.25em; }
+  // Style lists that aren't the accordion like uk-lists.
+  ul:not([uk-accordion]){
+    @extend .uk-list;
+    li, ul, div, a {
+      // Ensure text and spacing is correct
+      @extend .uk-text-default;
+      @extend .uk-margin-remove;
+    }
+  }
+}
+.table-of-contents {
+  background-color: var(--color-toc-background);
+  > nav { 
+    padding:1em;
+  }
+  ul {
+    @extend .uk-list;
+    margin:0!important;
+    ul {
+      padding-left:1em;
+    }
+    li {
+      @extend .uk-margin-remove;
+    }
+  }
+}
+#comments {
+  background-color:var(--color-comments-background);
+  padding-bottom:2rem;
+  h2 {
+    margin-top:-.4em!important;
+    span {
+      background-color: var(--color-comments-background);
+      padding:0 .2em;
+    }
+  }
+  .uk-comment-title {
+    margin-bottom:.1em;
+  }
+  .uk-comment-meta {
+    margin-top:.1em;
+  }
+  .uk-badge {
+    background-color: var(--color-comment-badge-background);
+    color:var(--color-comment-badge-text)!important;
+  }
+}

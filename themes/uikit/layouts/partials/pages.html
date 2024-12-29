@@ -1,0 +1,28 @@
+{{ $current_page := .Current}}
+{{ if .Page.IsPage }}
+<!-- Single Page -->
+  <li>
+    <a {{if .Page.Eq .Current }}class="active"{{ end }} href="{{.Page.Permalink}}">
+      {{.Page.Title}}
+    </a>
+  </li>
+{{ else  }}
+<!-- Anything else -->
+  {{ range .Page.Pages.GroupBy "Parent" }}
+    <li>
+      <ul uk-accordion>
+        <li {{ if .Key.IsAncestor $current_page }}class="uk-open"{{ end }}>
+          <a class="uk-accordion-title" href><span uk-icon="icon:chevron-down;ratio:.75"></span><span uk-icon="icon:chevron-right;ratio:.75"></span></a>
+          <a {{if .Key.Eq $current_page }}class="active"{{ end }} href={{ .Key.Permalink }}>{{.Key.Title}}</a>
+          <div class="uk-accordion-content">
+            <ul>
+              {{ range .Pages.ByTitle }}
+                {{ partial "pages.html" (dict "Page" .Page "Current" $current_page) }}
+              {{ end }}
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </li>
+  {{end}}
+{{ end }}

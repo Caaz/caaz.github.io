@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  {{ partial "head.html" . }}
+  <body class="theme-dark uk-flex uk-flex-column">
+    <div id="offcanvas-table-of-contents" uk-offcanvas="mode: slide; overlay: true; flip: true;">
+      <div class="table-of-contents uk-offcanvas-bar">
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+        {{ if .Fragments.Headings }}
+          {{ .TableOfContents }}
+        {{end}}
+      </div>
+    </div>
+    <div id="offcanvas-page-list" uk-offcanvas="mode: slide; overlay: true">
+        <div class="page-list uk-offcanvas-bar">
+          <button class="uk-offcanvas-close" type="button" uk-close></button>
+          {{ partial "page-list.html" . }}
+        </div>
+    </div>
+    <div class="uk-flex-1 uk-flex uk-flex-center uk-flex-column uk-flex-row@m">
+      <div class="uk-flex-1 uk-flex">
+        <div class="page-list uk-flex-none uk-visible@xl">
+          {{ partial "page-list.html" . }}
+        </div>
+        <div class="uk-flex-1">
+          {{ partial "navbar.html" .}}
+          <main id="content" class="uk-container">
+            {{ block "main" . }}Nothing Rendered{{ end }}
+          </main>
+          {{ partial "comments" .}}
+        </div>
+        <div class="table-of-contents uk-visible@l uk-flex-none">
+          {{ if .Fragments.Headings }}
+            {{ .TableOfContents }}
+          {{end}}
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
