@@ -1,6 +1,5 @@
 ---
 title: New Page
-description: A new page
-author: Daniel Cavazos
+summary: A new page
 draft: false
 ---

@@ -2,9 +2,8 @@
 title: Daniel / Caaz
 date: 2024-12-22T19:37:20
 draft: false
-lastmod: 2024-12-29T14:46:01
+lastmod: 2024-12-29T15:37:45
 ---
-
 ## About me
 Hi! My name is **Daniel**, but online, I go by **Caaz**. With over ten years of professional experience and twenty years as a hobbyist developer under my belt, you can bet I'm passionate about programming, architecture, and 
 

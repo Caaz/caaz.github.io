@@ -19,7 +19,9 @@
     "godot/error-handling.md": "259d45185f0797659a22682e05dcd98a4406b7cddc4914e1e7dcd682bf128e83",
     "godot/_index.md": "3fd9badc17393253ff8c44b2e592ba1dd4770041104bd2f929db8d3fc6502b1c",
     "game-ideas.md": "8010223c63c41cfce3c4c36c415d627211ebe205040669d0bc5c462c84671dba",
-    "_index.md": "ca4190f59be2201c394ca0fff7b701324e0b9ab304d89b28a03afd59f89e0168",
-    "_templates/page.md": "a050bcf1a8d3f6085966b1639dcb7b9cc6a5b4d1f4da7538d3bafe920d78d56e"
+    "_index.md": "920839e025a34ff1854dc6d62b72bfc69c1973b87ed69f8c1650cc2d28c3b0d1",
+    "_templates/page.md": "a050bcf1a8d3f6085966b1639dcb7b9cc6a5b4d1f4da7538d3bafe920d78d56e",
+    "blog/_index.md": "61b68795ef9863963f18d3577ffe58ac08b6900e4a641b76fea02f3adca9fe0b",
+    "blog/ai.md": "eadaeee6302b7902bbd9acd0a3963852044a4cbc1665d18eb42b6008688b08be"
   }
 }
