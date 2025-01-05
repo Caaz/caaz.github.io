@@ -8,7 +8,7 @@
   <h1 class="uk-article-title" >{{ .Title }}</h1>
   <ul class="uk-article-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
     <li>Created {{.Page.Date | time.Format "02 January 2006"}}</li>
-    <li>Updated {{.Page.Date | time.Format "02 January 2006"}}</li>
+    <li>Updated {{.Page.Lastmod | time.Format "02 January 2006"}}</li>
   </ul>
   {{ .Content }}
 </article>
