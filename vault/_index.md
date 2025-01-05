@@ -2,10 +2,10 @@
 title: Daniel / Caaz
 date: 2024-12-22T19:37:20
 draft: false
-lastmod: 2024-12-29T15:37:45
+lastmod: 2025-01-04T21:14:52
 ---
 ## About me
-Hi! My name is **Daniel**, but online, I go by **Caaz**. With over ten years of professional experience and twenty years as a hobbyist developer under my belt, you can bet I'm passionate about programming, architecture, and 
+Hi! My name is **Daniel**, but online, I go by **Caaz**. With over ten years of professional experience and twenty years as a hobbyist developer under my belt, you can bet I'm passionate about programming, architecture (in a project sense), and games.
 
 I've always learned best when teaching others what I know. That's why you'll see me sharing articles, tutorials, and code examples on this site - it helps me solidify my own understanding of topics and ensures that everything is explained in a way that's easy to grasp for all levels of experience.
 
@@ -25,4 +25,4 @@ Most of what you can find here is my personal opinion, and it's all subject to c
 
 
 ## Contact me
-In the links in the header, you'll find the various social media places to reach me. I'm open to working on projects, or discussing them. I don't know everything, but if I can help you in any way, don't hesitate to reach out!
+In the links in the header, you'll find the various social media places to reach me. I'm open to working on projects, or even just discussing them. I don't know everything, but if I can help you in any way, don't hesitate to reach out! 

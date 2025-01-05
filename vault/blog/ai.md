@@ -3,7 +3,7 @@ title: My Thoughts on AI
 summary: I discuss my thoughts on AI and my reservations about using it in production environments due to concerns over quality, training data, and confidence in outputs.
 draft: false
 date: 2024-12-29T15:25:59
-lastmod: 2024-12-29T16:19:29
+lastmod: 2025-01-01T17:40:21
 ---
 ## The Gist
 I really don't feel like AI belongs in any production environment. There has been no case of an AI generating something that I would be comfortable shipping with. Text models lack the human element that makes them feel real, repeat many phrases or words in a very robotic manner. Image models require too much training on copy written material to be feasible, most of the time it'd be much easier to just do the art or take the picture you want.

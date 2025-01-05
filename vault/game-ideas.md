@@ -2,7 +2,7 @@
 title: Game Ideas
 date: 2024-12-22T20:51:20
 draft: false
-lastmod: 2024-12-28T17:54:34
+lastmod: 2025-01-04T21:14:59
 ---
 ## Summary
 Like most game developers I have many, many ideas. I absolutely won't make all of them, and some I may not even have a full enough idea to write a game design document. Here's where I'll write a quick one-sentence-pitch to describe an idea I have, and if I ever have the time, I'll write up a design doc for it too.
