@@ -219,3 +219,14 @@ footer {
     color:var(--color-comment-badge-text)!important;
   }
 }
+.mermaid {
+  display:flex;
+  justify-content: center;
+  .label-container {
+    stroke: var(--color-navbar-background)!important;
+    fill: var(--color-body-background)!important;
+  }
+  .edgeLabel,  p, .labelBkg {
+    background-color:transparent!important;
+  }
+}

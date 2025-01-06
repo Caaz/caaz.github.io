@@ -18,11 +18,13 @@
     "godot/node-and-scene-references.md": "158c1ddd01e1a69e5f14488fa3f0973993fcc192c258261b2bf6e7c65c77cc69",
     "godot/error-handling.md": "259d45185f0797659a22682e05dcd98a4406b7cddc4914e1e7dcd682bf128e83",
     "godot/_index.md": "3fd9badc17393253ff8c44b2e592ba1dd4770041104bd2f929db8d3fc6502b1c",
-    "game-ideas.md": "e657554d94bd1be48588d77ecd1397de114505a1616c1e63b59b0a2c6ca45144",
     "_index.md": "f09dabca411274d69f430847f20a31fb739cc2e8c629a8f3391829c9b20e1d2b",
     "_templates/page.md": "a050bcf1a8d3f6085966b1639dcb7b9cc6a5b4d1f4da7538d3bafe920d78d56e",
     "blog/_index.md": "24a77bca2f87d7f4f0ac2b6ed1711fdd44b5af9bbbfac4fe18ce6ef44ec8da71",
     "blog/ai.md": "6da73201a713f8f6e144d220c809c752f3075ce1b93e92a17f8f1b7ce9e328e2",
-    "blog/funandgames-rimworld.md": "0cf720fe38aaedfd8b5be8fab35841015990178de900ba22a5fcd711c54192fa"
+    "blog/funandgames-rimworld.md": "0cf720fe38aaedfd8b5be8fab35841015990178de900ba22a5fcd711c54192fa",
+    "game-ideas/_index.md": "85eb1214c19385ed5404bf418b7351f1e2a47b52f4befc44fd241c51e11a1a33",
+    "game-ideas/grimmwar/index.md": "dc99578cee6aa08ee3efbaf08384a8be9c49fc586caa3a50b3bfbc323a87a89e",
+    "game-ideas/havoc/index.md": "6ec712e685c8a0498c81bfdc728b9fcbe5565421263f1afa293a247dac25f07b"
   }
 }
