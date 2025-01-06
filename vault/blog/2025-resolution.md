@@ -3,7 +3,8 @@ title: 2025 New Years Resolution
 summary: I've decided to be more creative this year, this is my progress!
 draft: false
 date: 2025-01-06T09:23:54
-lastmod: 2025-01-06T09:35:42
+lastmod: 2025-01-06T09:40:51
+post: 3lf3ojubavc2g
 ---
 ## Resolution
 I want to stop saying "I'm not an artist" and start doing art, start being comfortable with fucking up, and generally be more creative with all tasks I do.
