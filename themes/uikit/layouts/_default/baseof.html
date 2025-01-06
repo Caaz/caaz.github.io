@@ -21,7 +21,7 @@
         <div class="page-list uk-flex-none uk-visible@xl">
           {{ partial "page-list.html" . }}
         </div>
-        <div class="uk-flex-1">
+        <div class="uk-flex-1 uk-flex uk-flex-column">
           {{ partial "navbar.html" .}}
           <main id="content" class="uk-container">
             {{ block "main" . }}Nothing Rendered{{ end }}
