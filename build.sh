@@ -1,4 +1,3 @@
 #!/bin/sh
-
-rm -r /src/content/*.md
+rm -rf /src/content/*.md
 obsidian-export /src/vault /src/content

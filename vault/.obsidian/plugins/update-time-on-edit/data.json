@@ -15,7 +15,7 @@
     "retrospectives/_index.md": "63ee264c1e85f5622c0037d92b3d1c986b212cf991cd5b5a1e5b3b07af32c471",
     "godot/resolving-git-conflicts.md": "e65271b7c309b4a2a5598801da469290aa281fe2ddc24bd5aceeb91863b4279d",
     "godot/project-structure.md": "e69c99cbbd8103327ec3ea4b499dd8e00247831174f1c4a5a65b0d434dfa6977",
-    "godot/node-and-scene-references.md": "158c1ddd01e1a69e5f14488fa3f0973993fcc192c258261b2bf6e7c65c77cc69",
+    "godot/node-and-scene-references.md": "8973131b870bd0e674d95ad0499c263950042d138864ca345697324657d458f1",
     "godot/error-handling.md": "259d45185f0797659a22682e05dcd98a4406b7cddc4914e1e7dcd682bf128e83",
     "godot/_index.md": "3fd9badc17393253ff8c44b2e592ba1dd4770041104bd2f929db8d3fc6502b1c",
     "_index.md": "f09dabca411274d69f430847f20a31fb739cc2e8c629a8f3391829c9b20e1d2b",
@@ -27,6 +27,7 @@
     "game-ideas/grimmwar/index.md": "dc99578cee6aa08ee3efbaf08384a8be9c49fc586caa3a50b3bfbc323a87a89e",
     "game-ideas/havoc/index.md": "6ec712e685c8a0498c81bfdc728b9fcbe5565421263f1afa293a247dac25f07b",
     "blog/game-design-documents.md": "fdac9e91f850102c3d9102d71f2e97fac8103b7c7d959b822df701d7c6b163db",
-    "blog/2025-resolution.md": "9a0853d238686fa8374c4fd144471f72ba4fa9eacd8d5504052290b6fad6a3ce"
+    "blog/2025-resolution.md": "0fb40616e473e2a845da4af99aa70121ebd4b3b7a186155323a5f0c4cf554248",
+    "blog/art-as-a-developer/index.md": "798303e75f8eabb5ec3324c7180cafe89b6a90f22b12b98052bb01f2bc860534"
   }
 }

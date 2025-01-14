@@ -1,4 +1,4 @@
 FROM rust:bullseye AS build
 RUN cargo install obsidian-export
-ADD --chmod=555 build.sh build.sh
-CMD ["/build.sh"]
+COPY --chmod=777 build.sh /build.sh
+ENTRYPOINT ["sh", "/build.sh"]

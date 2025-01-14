@@ -3,7 +3,7 @@ title: 2025 New Years Resolution
 summary: I've decided to be more creative this year, this is my progress!
 draft: false
 date: 2025-01-06T09:23:54
-lastmod: 2025-01-06T09:40:51
+lastmod: 2025-01-14T14:28:01
 post: 3lf3ojubavc2g
 ---
 ## Resolution
@@ -18,6 +18,7 @@ Most of the difficulty I've faced when doing art has been landing on a consisten
 I feel it's important with any resolution to have hard goals, otherwise how do you say that you've done it?
 
 - [ ] Find an "art style" that I want to cultivate.
+	- [[blog/art-as-a-developer/index|In progress over here!]]
 - [ ] Do a self portrait!
 - [ ] Add more images to this site, hand drawn, rendered out, whatever.
 - [ ] Figure out real-time VFX for game assets!

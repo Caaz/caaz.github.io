@@ -81,6 +81,10 @@ div:has(#content) {
 }
 
 #content {
+  img {
+    @extend .uk-margin-small;
+    min-width:100%;
+  }
   .uk-article-title {
     margin-bottom:0;
   }

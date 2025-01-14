@@ -3,7 +3,7 @@ title: Node and Scene References
 date: 2024-12-22T21:39:16
 draft: false
 summary: Node and scene references in Godot scripts can be referenced using various methods, but some should be avoided due to potential issues with scene restructuring or node name changes.
-lastmod: 2024-12-27T21:14:58
+lastmod: 2025-01-14T13:08:26
 ---
 ## The typical cases
 Like all programming problems, referencing a node or scene in a Godot script can be done in many ways. I've found that some of these ways can raise issues during development that can cause problems, and should probably be avoided because of it.
