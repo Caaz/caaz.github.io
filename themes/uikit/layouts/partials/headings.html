@@ -1,0 +1,11 @@
+{{ $first := (collections.Index . 0 )}}
+
+{{ $topLevel := compare.Eq $first.Title "" }}
+{{ range . }}
+  {{ if not $topLevel }}<li><a href="#{{.ID}}">{{ safe.HTML .Title }}</a></li> {{end}}
+  {{ if .Headings }}
+    <ul class="uk-nav uk-nav-default {{ if $topLevel }}uk-padding-remove-left{{ end }}" {{ if $topLevel }}uk-scrollspy-nav="closest: li; scroll:true" {{ end }}>
+      {{ partial "headings" .Headings}}
+    </ul>
+  {{ end }}
+{{end }}

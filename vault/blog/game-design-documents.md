@@ -1,6 +1,6 @@
 ---
 date: 2025-01-05T20:49:02
-lastmod: 2025-01-05T22:04:04
+lastmod: 2025-01-14T12:48:37
 title: Game Design Documents
 summary: I want to figure out what the best way to go about making a game design document, here's what I've got
 draft: false

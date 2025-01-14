@@ -6,7 +6,7 @@
       <div class="table-of-contents uk-offcanvas-bar">
         <button class="uk-offcanvas-close" type="button" uk-close></button>
         {{ if .Fragments.Headings }}
-          {{ .TableOfContents }}
+          {{ partial "headings" .Fragments.Headings }}
         {{end}}
       </div>
     </div>
@@ -29,9 +29,11 @@
           {{ partial "comments" .}}
         </div>
         <div class="table-of-contents uk-visible@l uk-flex-none">
-          {{ if .Fragments.Headings }}
-            {{ .TableOfContents }}
-          {{end}}
+          <div class="uk-padding-small" uk-sticky>
+            {{ if .Fragments.Headings }}
+              {{ partial "headings" .Fragments.Headings }}
+            {{end}}
+          </div>
         </div>
       </div>
     </div>
