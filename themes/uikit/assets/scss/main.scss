@@ -226,11 +226,18 @@ footer {
 .mermaid {
   display:flex;
   justify-content: center;
+  .flowchartTitleText {
+    fill:var(--color-content-text)!important;
+  }
   .label-container {
     stroke: var(--color-navbar-background)!important;
     fill: var(--color-body-background)!important;
   }
   .edgeLabel,  p, .labelBkg {
     background-color:transparent!important;
+  }
+  .cluster rect {
+    stroke: var(--color-navbar-background)!important;
+    fill:#222!important;
   }
 }
