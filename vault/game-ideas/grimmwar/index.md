@@ -3,7 +3,7 @@ title: Grimmwar
 summary: A story building card game, mix and match story cards and build a story of a battle between your deck and your opponents.
 draft: false
 date: 2025-01-05T19:07:45
-lastmod: 2025-01-05T19:21:14
+lastmod: 2025-01-19T17:54:59
 ---
 ## Summary
 **WIP** This probably still needs some trimming, but it's the plan so far!

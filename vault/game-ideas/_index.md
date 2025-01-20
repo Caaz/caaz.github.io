@@ -2,7 +2,7 @@
 title: Game Concepts
 date: 2024-12-22T20:51:20
 draft: false
-lastmod: 2025-01-10T17:59:05
+lastmod: 2025-01-19T18:42:00
 ---
 ## Summary
 Like most game developers I have many, many ideas. I absolutely won't make all of them, and some I may not even have a full enough idea to write a game design document. Here's where I'll write a quick one-sentence-pitch to describe an idea I have, and if I ever have the time, I'll write up a design doc for it too.
@@ -12,7 +12,6 @@ These games don't have pages yet, but once I get time, I'll write them up!
 
 | Codename      | One sentence pitch                                                                                                                                                                                       |
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Vaedria       | Build a guild and defend territories via tactics combat, reach other settlements to gain new recruits, skills, and resources.                                                                            |
 | Cinder City   | F-Zero meets Initial D: Drift hover cars at blinding speeds.                                                                                                                                             |
 | Amp           | Play as a character who suddenly gains electrical powers, a branching player-driven story will guide you to heroism or destruction.                                                                      |
 | Nightfall     | Take on the role of a predatory fantasy monster with unique abilities and senses hunting the inhabitants of a secluded village.                                                                          |

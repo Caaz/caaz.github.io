@@ -3,7 +3,7 @@ title: Havoc
 summary: An arcade destruction game. Players take on the role of a kaiju and attack cities in a fully destructible environment.
 draft: false
 date: 2025-01-05T19:09:35
-lastmod: 2025-01-05T19:22:03
+lastmod: 2025-01-19T16:31:51
 ---
 ## Summary
 Havoc is an arcade destruction game. Players take on the role of a kaiju and attack cities in a fully destructible environment.
