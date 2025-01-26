@@ -1,3 +1,5 @@
 {
-  "folder": "_templates"
+  "folder": "_templates",
+  "timeFormat": "",
+  "dateFormat": ""
 }
