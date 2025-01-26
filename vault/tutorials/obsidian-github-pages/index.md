@@ -3,7 +3,8 @@ title: Making an Obsidian Driven Github Pages site
 summary: Learn how to make a site like this one, hosted via Github Pages and populated via Obsidian notes.
 draft: false
 date: 2025-01-25T13:54:19
-lastmod: 2025-01-25T17:49:59
+lastmod: 2025-01-25T17:58:28
+post: 3lgmd7hbw7s2q
 ---
 This site has gone through a few evolutions over the years, as a web developer, I've always been tempted to try out new technologies and frameworks to express myself online. As a now burnt out and exhausted web developer though, I've found the content is far more important than what it's built in. I've settled on using Obsidian to write and update these pages, and have a few build steps to convert those into an easily navigable frontend for users to read all of the pages. Here, I'll show you how I set that up.
 
