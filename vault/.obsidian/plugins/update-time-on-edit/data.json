@@ -23,7 +23,7 @@
     "blog/_index.md": "24a77bca2f87d7f4f0ac2b6ed1711fdd44b5af9bbbfac4fe18ce6ef44ec8da71",
     "blog/ai.md": "6da73201a713f8f6e144d220c809c752f3075ce1b93e92a17f8f1b7ce9e328e2",
     "blog/funandgames-rimworld.md": "0cf720fe38aaedfd8b5be8fab35841015990178de900ba22a5fcd711c54192fa",
-    "game-ideas/_index.md": "6510f1a5ea94b34df0d6610260f6edbe700d2fa0b05891831335af3be912e747",
+    "game-ideas/_index.md": "38743969d37705e0ba7053de1be4ce8aef18df25d4c8ac59c3e58ad6ec2b4c74",
     "game-ideas/grimmwar/index.md": "cf8e75e03df07e45d7721eb57f3a3d4df60150a444c2c993a4a0e6fae58730d6",
     "game-ideas/havoc/index.md": "bf917f68346a5f41bdffc5ad10a0347101e557efddf7e66f0f4087f5e7ee12da",
     "blog/game-design-documents.md": "fdac9e91f850102c3d9102d71f2e97fac8103b7c7d959b822df701d7c6b163db",
@@ -31,6 +31,8 @@
     "blog/art-as-a-developer/index.md": "798303e75f8eabb5ec3324c7180cafe89b6a90f22b12b98052bb01f2bc860534",
     "game-ideas/vaedria/index.md": "f0eeb1fd5399ccc0683abad5992ab9492b4cf2bb07da2f5d8c443187064b4e7e",
     "tutorials/_index.md": "97a1c7a4dac35ed3f77f1086817ed15a4cdf625aa90da1474c73d0442b646dec",
-    "tutorials/obsidian-github-pages/index.md": "d7268735eaf9261f87c64acac0fa6b7fbafd7e6c97dcea661deb050efa80bfa8"
+    "tutorials/obsidian-github-pages/index.md": "d7268735eaf9261f87c64acac0fa6b7fbafd7e6c97dcea661deb050efa80bfa8",
+    "game-ideas/nightfall/index.md": "d97c9e6be7bf1db9cdf0fab9e4c8d09411e00342c08ee3e74f452df6cf519596",
+    "resources.md": "2a00736fa54e89deace0c09153847c9f6c97ab3a94ae5b5d6ec1f4d3b8c077a9"
   }
 }
