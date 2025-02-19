@@ -3,9 +3,9 @@ title: Dragon Soul
 summary: A shmup game inspired by Dragon Spirit and Godzilla Comics
 draft: false
 date: 2025-02-18T18:39:16
-lastmod: 2025-02-18T19:36:27
+lastmod: 2025-02-18T19:42:32
 ---
-## SMUP Love Month Jam
+## SHMUP Love Month Jam
 This game has been in my head for a while now, but I've decided to go forward with getting a vertical slice done for the [SHMUP Love Month Jam](https://itch.io/jam/shmup-love-month-jam). 
 
 ## Story
