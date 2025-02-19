@@ -1,12 +1,12 @@
 ---
 title: RimWorld
 summary: RimWorld is a game I have a love/hate relationship with, and here's why.
-draft: true
+draft: false
 date: 2025-01-01T17:39:55
-lastmod: 2025-01-04T21:12:10
+lastmod: 2025-02-18T19:15:51
 ---
 ## Heads up!
-This is the script of a podcast episode I recorded for the ["Fun" & Games Podcast](https://funandgames.libsyn.com/)! It's episode 356!
+This is the script of a podcast episode I recorded for the ["Fun" & Games Podcast](https://funandgames.libsyn.com/)! [It's episode 356](https://funandgames.libsyn.com/side-quests-episode-356-rimworld-with-caaz)!
 ## Intro
 Hi, my name is Daniel, online I tend to go by Caaz, and professionally a web developer. But I'm also a hobbyist game developer, and part of my research while learning game development has been playing games, getting a good understanding of the design choices the developer's made to make their game fun. I figured coming onto this podcast would be a good chance to do that with a game I've grown to love, RimWorld
 
@@ -45,5 +45,7 @@ Ry walked outside caried the Warg's body to the freezer to be butchered for food
 
 ## Outro
 I feel I should call it there. All of that occurred within about a day of gameplay, it's only scratching the surface of everything that can happen in a game. I had to leave some events out, like a guinea pig invasion and a few small quests where nothing really happened.
+
+> I definitely yapped a lot around this point and none of that was on-script and I'm not about to go re-listen to this again to go figure out what I said
 
 Hopefully though, that convinced you to maybe give RimWorld a try. But whatever your story might be, happy gaming.

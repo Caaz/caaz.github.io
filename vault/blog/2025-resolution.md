@@ -3,7 +3,7 @@ title: 2025 New Years Resolution
 summary: I've decided to be more creative this year, this is my progress!
 draft: false
 date: 2025-01-06T09:23:54
-lastmod: 2025-01-14T14:28:01
+lastmod: 2025-02-18T19:16:20
 post: 3lf3ojubavc2g
 ---
 ## Resolution
@@ -31,4 +31,4 @@ I feel it's important with any resolution to have hard goals, otherwise how do y
 ## Accomplishments
 
 ### "Fun" and Games Podcast
-I recorded an episode for a podcast! In it, I told the story of my RimWorld colony! I think if I want to do more recordings of myself, I should probably get a better microphone, the one I have barely picks me up, or perhaps I'm not using it properly. In any case, it doesn't have a stand and I had to hold it in a cup for the entirety of the recording, so It's probably a good idea to get a new one anyway.
+[I recorded an episode for a podcast!](https://funandgames.libsyn.com/side-quests-episode-356-rimworld-with-caaz) In it, I told the story of my RimWorld colony! I think if I want to do more recordings of myself, I should probably get a better microphone, the one I have barely picks me up, or perhaps I'm not using it properly. In any case, it doesn't have a stand and I had to hold it in a cup for the entirety of the recording, so It's probably a good idea to get a new one anyway.
