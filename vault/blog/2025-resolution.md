@@ -3,7 +3,7 @@ title: 2025 New Years Resolution
 summary: I've decided to be more creative this year, this is my progress!
 draft: false
 date: 2025-01-06T09:23:54
-lastmod: 2025-02-18T19:16:20
+lastmod: 2025-03-04T20:20:40
 post: 3lf3ojubavc2g
 ---
 ## Resolution
@@ -23,8 +23,10 @@ I feel it's important with any resolution to have hard goals, otherwise how do y
 - [ ] Add more images to this site, hand drawn, rendered out, whatever.
 - [ ] Figure out real-time VFX for game assets!
 - [ ] Create a character!
-- [ ] Figure out Blender's [Non-Linear Animation](https://docs.blender.org/manual/en/latest/editors/nla/index.html) tool.
-- [ ] Figure out Animation blending in Godot/Blender?
+- [x] Figure out Blender's [Non-Linear Animation](https://docs.blender.org/manual/en/latest/editors/nla/index.html) tool.
+	- I figured this out! It's actually not too bad. Someday I should write up a post about it.
+- [x] Figure out Animation blending in Godot/Blender?
+	- AnimationTree is *slick*! I just got to try it, and it's a lot simpler than I expected. The parameter names are a bit awkward, though.
 - [ ] Do some creative writing, an original story.
 - [ ] Learn some audio stuff? How to master properly, maybe learn some foley stuff?
 
