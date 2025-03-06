@@ -3,9 +3,12 @@ title: Resolving Git Conflicts
 date: 2024-12-22T21:36:30
 draft: false
 summary: When using Git with Godot projects, conflicts can arise during merges or pulls due to changes made to scene files (.tscn) and external resources. This document provides guidance on resolving these conflicts.
-lastmod: 2025-01-01T17:39:55
+lastmod: 2025-03-05T18:57:57
 ---
 ## Summary
+
+> Heads Up! This was written with Godot 4.3 In mind! UIDs have had a major change, and some of this information might be out of date!
+
 When using git, Godot scenes (.tscn) files tend to conflict very easily, any new node or resource added to the scene will modify the first line of the scene file:
 ```
 [gd_scene load_steps=5 format=3 uid="uid://bdldxaka32a6w"]
