@@ -3,7 +3,7 @@ title: Shading like Caaz, the Mob Psycho 100 Effect
 summary: An informal process to creating shaders in Godot 4.4
 draft: false
 date: 2025-03-18T09:18:00
-lastmod: 2025-03-18T14:47:00
+lastmod: 2025-03-18T14:50:38
 ---
 
 > Heads up! I probably don't have gdshader syntax coloring set up, forgive me! Also, this was written for Godot 4.4!
@@ -215,7 +215,7 @@ It's starting to look like a disc now! We can tighten up the gradient, by adding
 distance_to_angle = pow(distance_to_angle, 6.);
 ```
 
-![[powered-pattern.png]]Now, if you've been keeping track of the coding patterns I've been using so far, you'll note that this distance_to_angle is a float, and it's *probably* from 0-1 (we can clamp it if it's not, if that matters, who knows, that's for the math nerds). This means that we're going to use this value as a [[#Masking?|Mask]]!
+![[powered-pattern.png]]Now, if you've been keeping track of the coding patterns I've been using so far, you'll note that this distance_to_angle is a float, and it's *probably* from 0-1 (we can clamp it if it's not, if that matters, who knows, that's for the math nerds). This means that we're going to use this value as a mask!
 
 #### Refactor, but again!
 Lets do some quick refactoring, to make this radial gradient reusable. Here's where I am at this point. I've added a uniform for the power value we're using for the gradient, this should make it easier to tweak to our liking later.
