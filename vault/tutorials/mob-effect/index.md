@@ -3,7 +3,8 @@ title: Shading like Caaz, the Mob Psycho 100 Effect
 summary: An informal process to creating shaders in Godot 4.4
 draft: false
 date: 2025-03-18T09:18:00
-lastmod: 2025-03-18T14:50:38
+lastmod: 2025-03-18T15:01:06
+post: 3lkonunz7ps2m
 ---
 
 > Heads up! I probably don't have gdshader syntax coloring set up, forgive me! Also, this was written for Godot 4.4!
