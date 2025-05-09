@@ -3,7 +3,7 @@ title: Writing a haiku
 summary: Some research on how a well haiku is constructed
 draft: true
 date: 2025-04-09T12:09:54
-lastmod: 2025-05-08T19:45:55
+lastmod: 2025-05-08T20:33:47
 ---
 Going into this, I had assumed haiku were simple 5/7/5 constructions. I was wrong beyond expectations. I've learned there's a lot of features to them that should be considered, which makes reading a good one have more depth than I originally expected.
 
@@ -55,7 +55,7 @@ So I've established a set of rules for the haiku I wish to write:
 - It must have a **kigo**.
 	- I'm going to define this as a word that emphasizes the time in my life.
 - It **should** consist of small, simple words.
-	- Larger words are hard to create in the gameplay of [[game-ideas/zen/_index|zen]], so I need to avoid that when possible.
+	- Larger words are hard to create in the gameplay of [[game-ideas/zen/index|zen]], so I need to avoid that when possible.
 	- I don't want to come off as using big words to be "profound". Poetry isn't my strong suit, and I don't want to belittle people's intelligence either. Art should be for everyone. 
 	- Large words are also seen as *cheap* in the context of a haiku. I'd like to avoid that
 - It **should** be personal, reflecting my life.
