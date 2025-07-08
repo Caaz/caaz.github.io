@@ -3,7 +3,7 @@ title: Turn Based Combat
 summary: What are the pieces of turn based combat? How can they be adjusted or modified?
 draft: false
 date: 2025-06-30T21:34:06
-lastmod: 2025-07-01T00:16:03
+lastmod: 2025-07-08T14:27:05
 ---
 Turn based combat is an incredibly common staple of RPG games. I want to know what parts of turn based combat are common, what games can do to tweak it, and the pros and cons of using this feature.
 
@@ -11,7 +11,7 @@ Turn based combat is an incredibly common staple of RPG games. I want to know wh
 
 This document is bound to cover a *wide* range of games, so I think it's best I set up a list of terminology and what I mean by them.
 
-- **Character**: The units that are engaging in battle. Sometimes these are the player, sometimes they're merely characters the player controls, enemies, pokemon, etc.
+- **Character**: The units that are engaging in battle. Sometimes these are the player, sometimes they're merely characters the player controls, enemies, Pokémon, etc.
 
 # Common Mechanics
 

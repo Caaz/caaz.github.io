@@ -33,7 +33,7 @@
     "tutorials/_index.md": "97a1c7a4dac35ed3f77f1086817ed15a4cdf625aa90da1474c73d0442b646dec",
     "tutorials/obsidian-github-pages/index.md": "d7268735eaf9261f87c64acac0fa6b7fbafd7e6c97dcea661deb050efa80bfa8",
     "game-ideas/nightfall/index.md": "d97c9e6be7bf1db9cdf0fab9e4c8d09411e00342c08ee3e74f452df6cf519596",
-    "resources.md": "dcb93e907694498149531ba13685071b6f6ee6b4b6e8136c619c0b686017ddbf",
+    "resources.md": "411e18476365021b8a0cb3b6bebff63dcf3233f288f2faba9ca9b9f595b7b02b",
     "game-ideas/dragon/index.md": "3470b4845f8f9475c717c60ad0dc21d4bed1568742d145a1a2c9cc561888a044",
     "blender/index.md": "493346a59fe6efad43729f183ed3514d684dad1061d27a1237bc1c079c32ec57",
     "retrospectives/cat-5/index.md": "fc17a37bbf6ec9f2bdc071bfb4db74367c6b297c44eb35efd589b81ee149e92a",
@@ -43,6 +43,7 @@
     "game-ideas/zen/index.md": "e31d589776762003ec23c5948764f73ec629cb142730b78c5c6610214ddb1882",
     "game-ideas/fishrpg/index.md": "06d87c6e6152085e56e2c6d078670e1235f8b215755b513c8738acc37778cb9e",
     "research/_index.md": "bf491545ec98b28e90969651ac4a73732a310d9baddceef776db7abd9ad5d2a4",
-    "research/Turn Based Combat.md": "2ed4b9a891984ed017f6c23152b3d9ed40ccc5d3804b5667757fedfcd4bafda9"
+    "research/turn-based-combat.md": "a399c590b85fe65cda9b1cc82d6f5250c37547679162140b73883963d8838fd6",
+    "research/making-arcade-music.md": "649988cacadd128a7cbb7609bc964ac72edd99c55e0bad37649ff733e5a69b1a"
   }
 }
