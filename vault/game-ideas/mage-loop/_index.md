@@ -3,7 +3,8 @@ title: MageLoop
 summary: A game created for GMTK Game Jam 2025. This document goes over the future plans for development.
 draft: false
 date: 2025-08-12T21:13:08
-lastmod: 2025-08-13T01:23:04
+lastmod: 2025-08-13T01:31:00
+post: 3lwbfwjawum2i
 ---
 ## Summary
 MageLoop was a *mildly* successful game made for the GMTK Game Jam 2025. If you want to know how that went, read the [[retrospective]] about it! This document will go over the future plans for the game based on the feedback I received.
