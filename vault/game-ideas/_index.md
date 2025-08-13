@@ -2,7 +2,7 @@
 title: Game Concepts
 date: 2024-12-22T20:51:20
 draft: false
-lastmod: 2025-01-27T17:20:54
+lastmod: 2025-08-12T21:09:54
 ---
 ## Summary
 Like most game developers I have many, many ideas. I absolutely won't make all of them, and some I may not even have a full enough idea to write a game design document. Here's where I'll write a quick one-sentence-pitch to describe an idea I have, and if I ever have the time, I'll write up a design doc for it too.
@@ -22,5 +22,7 @@ These games don't have pages yet, but once I get time, I'll write them up!
 | Looper        | A malfunctioning time machine sends colonists back in time at fixed intervals, echoes of the past continue to do their work, the player must find a way to harness the machine and escape the time loop. |
 | RPG/PunchOut  | An RPG game with the reactionary arcade combat of Punch Out!                                                                                                                                             |
 | Minesnaker    | In a minesweeper play snake, eat mines to reveal more area until you reveal the entire stage                                                                                                             |
+| Familiar      | Play as an alchemist's assistant, fetch ingredients for them and race against the clock to save your master's life                                                                                       |
+| Aquaponicom   | Insaniquarium-like gameplay where you summon enemies to feed fish                                                                                                                                        |
 
 ## Design documents

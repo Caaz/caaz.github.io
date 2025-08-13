@@ -16,14 +16,14 @@
     "godot/resolving-git-conflicts.md": "662ae0daf3d6a6c518478a6f648441b72f7664963302bf604480c4d3c06a9203",
     "godot/project-structure.md": "e69c99cbbd8103327ec3ea4b499dd8e00247831174f1c4a5a65b0d434dfa6977",
     "godot/node-and-scene-references.md": "cb37336980627771f2d893e21c5718bf034c2ca706be962efec49a44dff8e9ea",
-    "godot/error-handling.md": "259d45185f0797659a22682e05dcd98a4406b7cddc4914e1e7dcd682bf128e83",
-    "godot/_index.md": "3fd9badc17393253ff8c44b2e592ba1dd4770041104bd2f929db8d3fc6502b1c",
+    "godot/error-handling.md": "43bf356affeb5976d865e7c801ecf3c443df9aad5dcbc9373fcd3fa380695c13",
+    "godot/_index.md": "0e81eff2079479a3bdb534d9bc23e8d6a7c7085b5fc73ecdbe47615929dad2db",
     "_index.md": "f09dabca411274d69f430847f20a31fb739cc2e8c629a8f3391829c9b20e1d2b",
     "_templates/page.md": "a050bcf1a8d3f6085966b1639dcb7b9cc6a5b4d1f4da7538d3bafe920d78d56e",
     "blog/_index.md": "24a77bca2f87d7f4f0ac2b6ed1711fdd44b5af9bbbfac4fe18ce6ef44ec8da71",
     "blog/ai.md": "84fd4e8bfd378b4f8fc958e601800c26e82fbe4f7d92b8d18dad865ca5a6885e",
     "blog/funandgames-rimworld.md": "193a562eb9459ec9034c6330133213a09b668f8ebc33e663d8a30f6767c10397",
-    "game-ideas/_index.md": "38743969d37705e0ba7053de1be4ce8aef18df25d4c8ac59c3e58ad6ec2b4c74",
+    "game-ideas/_index.md": "a7b3c822ceb7b5fa34c6c49bc5521b9ace8e2f3c5fd83299d3f613d358bfcc12",
     "game-ideas/grimmwar/index.md": "cf8e75e03df07e45d7721eb57f3a3d4df60150a444c2c993a4a0e6fae58730d6",
     "game-ideas/havoc/index.md": "bf917f68346a5f41bdffc5ad10a0347101e557efddf7e66f0f4087f5e7ee12da",
     "blog/game-design-documents.md": "fdac9e91f850102c3d9102d71f2e97fac8103b7c7d959b822df701d7c6b163db",
@@ -44,6 +44,8 @@
     "game-ideas/fishrpg/index.md": "06d87c6e6152085e56e2c6d078670e1235f8b215755b513c8738acc37778cb9e",
     "research/_index.md": "bf491545ec98b28e90969651ac4a73732a310d9baddceef776db7abd9ad5d2a4",
     "research/turn-based-combat.md": "a399c590b85fe65cda9b1cc82d6f5250c37547679162140b73883963d8838fd6",
-    "research/making-arcade-music.md": "649988cacadd128a7cbb7609bc964ac72edd99c55e0bad37649ff733e5a69b1a"
+    "research/making-arcade-music.md": "649988cacadd128a7cbb7609bc964ac72edd99c55e0bad37649ff733e5a69b1a",
+    "game-ideas/mage-loop/_index.md": "70d979aca4c097ab30eefcb0e2f3f4700837fa4698ba1248b4776088911d90af",
+    "game-ideas/mage-loop/retrospective.md": "00993494ac17340c6a5ecbeeec65221a877e8b1aea265675e28f0a4d52de8ef1"
   }
 }
