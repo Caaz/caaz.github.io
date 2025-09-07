@@ -33,7 +33,7 @@
     "tutorials/_index.md": "97a1c7a4dac35ed3f77f1086817ed15a4cdf625aa90da1474c73d0442b646dec",
     "tutorials/obsidian-github-pages/index.md": "d7268735eaf9261f87c64acac0fa6b7fbafd7e6c97dcea661deb050efa80bfa8",
     "game-ideas/nightfall/index.md": "d97c9e6be7bf1db9cdf0fab9e4c8d09411e00342c08ee3e74f452df6cf519596",
-    "resources.md": "10762280017031f7d71ff21f3a271f0287e54e7c9f2b6ca183a8a41d8e75befc",
+    "resources.md": "c7bac3579a9ffe9e3ae38d9cb6183a7c8be437c4da4d9e04effc134d4eb37d9c",
     "game-ideas/dragon/index.md": "3470b4845f8f9475c717c60ad0dc21d4bed1568742d145a1a2c9cc561888a044",
     "blender/index.md": "493346a59fe6efad43729f183ed3514d684dad1061d27a1237bc1c079c32ec57",
     "retrospectives/cat-5/index.md": "fc17a37bbf6ec9f2bdc071bfb4db74367c6b297c44eb35efd589b81ee149e92a",
@@ -46,6 +46,12 @@
     "research/turn-based-combat.md": "a399c590b85fe65cda9b1cc82d6f5250c37547679162140b73883963d8838fd6",
     "research/making-arcade-music.md": "649988cacadd128a7cbb7609bc964ac72edd99c55e0bad37649ff733e5a69b1a",
     "game-ideas/mage-loop/_index.md": "24be1dca67052959d4fa23ca049ca7d9958bd83a3eebbb6fba4381e8279bb051",
-    "game-ideas/mage-loop/retrospective.md": "00993494ac17340c6a5ecbeeec65221a877e8b1aea265675e28f0a4d52de8ef1"
+    "game-ideas/mage-loop/retrospective.md": "00993494ac17340c6a5ecbeeec65221a877e8b1aea265675e28f0a4d52de8ef1",
+    "game-ideas/mage-loop/architecture.md": "2711b4c0b29b4d762f4d3240bc660f5a97b4300eb5bda8276fb5da911a541f1a",
+    "game-ideas/mystery-dungeon/_index.md": "fb6a99ff89dafad752b10a5c0b9fb83f6afe9b436634e4984b94ff83fba7d17d",
+    "game-ideas/mystery-dungeon/ideation.md": "f294d0e9fffc2f5d005762e73b0288bf30d0884ee3babbb3f29ce32e2aa50a68",
+    "game-ideas/mystery-dungeon/setting.md": "d6bf93ea9f36d845fb4ed492b5a6cbc7c40e5913cc10fce901dc3872dc2fcac8",
+    "game-ideas/incremental-miner/index.md": "6cb4d8ca24c63447118487822eed43ec2161ce8005cc88a7151d28c20914a8f4",
+    "game-ideas/ogam-51-collectible/index.md": "2625fb44ecff407cc320175c09bffa61a1829b5cc2b40978ed07539686b17f2c"
   }
 }
