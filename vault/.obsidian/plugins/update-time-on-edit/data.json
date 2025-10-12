@@ -26,7 +26,7 @@
     "game-ideas/_index.md": "a7b3c822ceb7b5fa34c6c49bc5521b9ace8e2f3c5fd83299d3f613d358bfcc12",
     "game-ideas/grimmwar/index.md": "cf8e75e03df07e45d7721eb57f3a3d4df60150a444c2c993a4a0e6fae58730d6",
     "game-ideas/havoc/index.md": "bf917f68346a5f41bdffc5ad10a0347101e557efddf7e66f0f4087f5e7ee12da",
-    "blog/game-design-documents.md": "fdac9e91f850102c3d9102d71f2e97fac8103b7c7d959b822df701d7c6b163db",
+    "blog/game-design-documents.md": "e3b14009ea9f861f35e9c2bbe5b30a04e104129a2e8435a0b5f1560521ee61ed",
     "blog/2025-resolution.md": "6f66a5350c420ec7f38d626187ae2a6c74e719360a4e99be8961c4d2f5de9fac",
     "blog/art-as-a-developer/index.md": "798303e75f8eabb5ec3324c7180cafe89b6a90f22b12b98052bb01f2bc860534",
     "game-ideas/vaedria/index.md": "f0eeb1fd5399ccc0683abad5992ab9492b4cf2bb07da2f5d8c443187064b4e7e",
@@ -52,6 +52,10 @@
     "game-ideas/mystery-dungeon/ideation.md": "f294d0e9fffc2f5d005762e73b0288bf30d0884ee3babbb3f29ce32e2aa50a68",
     "game-ideas/mystery-dungeon/setting.md": "d6bf93ea9f36d845fb4ed492b5a6cbc7c40e5913cc10fce901dc3872dc2fcac8",
     "game-ideas/incremental-miner/index.md": "6cb4d8ca24c63447118487822eed43ec2161ce8005cc88a7151d28c20914a8f4",
-    "game-ideas/ogam-51-collectible/index.md": "2625fb44ecff407cc320175c09bffa61a1829b5cc2b40978ed07539686b17f2c"
+    "game-ideas/ogam-51-collectible/index.md": "2625fb44ecff407cc320175c09bffa61a1829b5cc2b40978ed07539686b17f2c",
+    "game-ideas/alchemy/index.md": "74f5780a1ad70252d3c9b6e639901b2cfe3a5cdb39c252393a5b408cc33b74e6",
+    "game-ideas/cosmic-horrors-jam-4/index.md": "3e594a96a77e62caea083b236179c631323541e219b435ef78259038e89617a1",
+    "game-dives/happy-little-dinosaurs/index.md": "73242cd67c735665229f3f3b0ce107fb8e76cef0f66878b188854874ddaff2ec",
+    "game-dives/_index.md": "a55f717b359500217526c0ab3bd589099d7225d31fde82945fba06711039fbfa"
   }
 }
