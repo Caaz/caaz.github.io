@@ -3,7 +3,7 @@ title: Cosmic Horrors Jam IV
 summary: A game created for the Cosmic Horrors Jam IV!
 draft: false
 date: 2025-10-08T18:12:49
-lastmod: 2025-10-17T09:32:42
+lastmod: 2025-10-17T09:54:48
 ---
 This game is for the [Cosmic Horrors Jam IV](https://itch.io/jam/cosmichorrorsjam4)! I'm writing this before the jam starts as I've already got an idea in mind that should be easy to develop, and let me flex some art skills along the way.
 
@@ -39,13 +39,14 @@ At the beginning of a turn, a horror card is drawn from the horror deck and reve
 
 Scoring: Each action card has a value associated with it ranging from 1-7, the player who played the card may also have a score adjustment based on their role. For example if a Detective is playing an action of 4 against a monstrosity horror, their total score is 5 due to the +1 to monstrosity detective has.
 
-If two players tie for lowest score, they play a second card and score those as well. (Drawing to replace the card played as well). They repeat this step until the time is broken.
+If two players tie for lowest score, they play a second card and score those as well. (Drawing to replace the card played as well). They repeat this step until the tie is broken.
 
 If any player collects 3 of the same type of horror, they lose the game.
 
 To win, you must be the last player in the game.
 ## Content
 ### Horrors
+![[horrors.png]]
 - Arcane (Knowledge based) Blue
 - Anomaly (Reality based) Purple
 - Monstrosity (Creature based) Red
@@ -76,6 +77,7 @@ To win, you must be the last player in the game.
 
 
 ### Characters
+![[portriats.png]]
 
 | Matrix       | +Anomaly | +Monstrosity | +Arcane   |
 | ------------ | -------- | ------------ | --------- |
