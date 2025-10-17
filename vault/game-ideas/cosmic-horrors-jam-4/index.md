@@ -3,7 +3,7 @@ title: Cosmic Horrors Jam IV
 summary: A game created for the Cosmic Horrors Jam IV!
 draft: false
 date: 2025-10-08T18:12:49
-lastmod: 2025-10-11T22:45:00
+lastmod: 2025-10-17T09:32:42
 ---
 This game is for the [Cosmic Horrors Jam IV](https://itch.io/jam/cosmichorrorsjam4)! I'm writing this before the jam starts as I've already got an idea in mind that should be easy to develop, and let me flex some art skills along the way.
 
@@ -15,7 +15,7 @@ Disasters are **Horrors**, each a style of horror found in the cosmic horror gen
 
 Player characters are human, each representing a character within your typical film-noir story
 
-Point cards will be reflavored as **Actions**.
+Point cards and instant cards will be joined as **Action Cards**. An action card will have effects that can trigger in your hand, when played, during ties, etc.
 
 ## Rules
 
@@ -49,10 +49,11 @@ To win, you must be the last player in the game.
 - Arcane (Knowledge based) Blue
 - Anomaly (Reality based) Purple
 - Monstrosity (Creature based) Red
+- Cosmic (All Types) Gray
 
 | Art | Type        | Name                | Note                                                     |
 | --- | ----------- | ------------------- | -------------------------------------------------------- |
-|     | Cosmic      | Star-Crowned King   | The skull on the card backs, but not skeletal.           |
+| Yes | Cosmic      | Star-Crowned King   | The skull on the card backs, but not skeletal.           |
 |     | Cosmic      | Abyssal Queen       | Statue of Liberty, as an eldritch horror, still massive. |
 | Yes | Arcane      | Maddening Device    | A touch screen phone, in the 1930s?                      |
 | Yes | Arcane      | The Truth           | A big door, callback to full metal alchemist             |
@@ -63,11 +64,11 @@ To win, you must be the last player in the game.
 | Yes | Anomaly     | Eternal Twilight    | Eyeball in the night sky                                 |
 | Yes | Anomaly     | Spatial Spirits     | A mysterious cocktail drink                              |
 | Yes | Anomaly     | Slice of Life       | A person, a slice of a person, still living              |
-|     | Anomaly     | Ouroboros Rail      | A train with no destination, no stop, and no             |
+|     | Anomaly     | Ouroboros Rail      | A train with no destination, no stop, and no start       |
 |     | Anomaly     | Obsidian Vault      | A portal to unimaginable worlds, that calls people in    |
 |     | Anomaly     | Times Square        | A point in space where multiple timelines converge       |
 | Yes | Monstrosity | Grasping Smog       | Smoke rising from a vent causing people to go insane     |
-| yes | Monstrosity | The Birds           | Pigeons with too many eyes                               |
+| Yes | Monstrosity | The Birds           | Pigeons with too many eyes                               |
 | Yes | Monstrosity | Pizzamalgam         | Pizza rat, but more tentacles                            |
 |     | Monstrosity | Ruby Gargoyle       | A gargoyle with red gemstone eyes                        |
 |     | Monstrosity | Living Vat          | A vat of chemicals brought to life                       |
@@ -83,15 +84,17 @@ To win, you must be the last player in the game.
 | -Arcane      | Cultist  | Mob Boss     |           |
 ### Actions
 
-| Value | Amount | Name              | Effect |     |
-| ----- | ------ | ----------------- | ------ | --- |
-| 1     | 3      | Flash a Badge     |        |     |
-| 2     | 3      | Hide the Evidence |        |     |
-| 3     | 3      | Take a Breath     |        |     |
-| 4     | 3      | Light a Candle    |        |     |
-| 5     | 3      | Burn the Books    |        |     |
-| 6     | 3      | Read the Stars    |        |     |
-| 7     | 3      | Trust in Luck     |        |     |
+Each role will have their own set of Actions, each which have a *value*, a *name*, and optionally an *effect*.
+#### Effects
+
+| Name     | Effect                                                                           |
+| -------- | -------------------------------------------------------------------------------- |
+| Growth   | Each turn the card is in your hand, an amount will be added to the card's value. |
+| Refresh  | When played, discards your entire hand and draws 3 new ones.                     |
+| Stack    | When played, allows you to play a second card to add to the card's value.        |
+| Critical | When played vs a specific horror type, a bonus is added to the card's value      |
+| Breaker  | When played during a tiebreaker, a bonus is added to the card's value            |
+
 
 ## Technical
 ```mermaid
@@ -118,25 +121,3 @@ scoring -- a player has the lowest score --> loser_found
 loser_found -- if there are 2 or more players remaining --> start_turn
 loser_found -- if there is only one remaining player --> winner_found
 ```
-### Classes
-#### Game State
-Properties
-- Players
-- Current Player
-- Horror Deck
-- Action Deck
-#### Player
-Properties
-- Hand
-- Horror Cards
-#### Horror Card
-Properties
-- Texture
-- Name
-- Type
-#### Action Card
-- Properties
-- Value
-- Name
-- Description
-- Texture
