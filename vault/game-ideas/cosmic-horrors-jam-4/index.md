@@ -3,8 +3,9 @@ title: Cosmic Horrors Jam IV
 summary: A game created for the Cosmic Horrors Jam IV!
 draft: false
 date: 2025-10-08T18:12:49
-lastmod: 2025-10-17T09:54:48
+lastmod: 2025-10-17T12:33:48
 ---
+![[title.png]]
 This game is for the [Cosmic Horrors Jam IV](https://itch.io/jam/cosmichorrorsjam4)! I'm writing this before the jam starts as I've already got an idea in mind that should be easy to develop, and let me flex some art skills along the way.
 
 ## The Plan
@@ -79,11 +80,57 @@ To win, you must be the last player in the game.
 ### Characters
 ![[portriats.png]]
 
-| Matrix       | +Anomaly | +Monstrosity | +Arcane   |
-| ------------ | -------- | ------------ | --------- |
-| -Anomaly     |          | Detective    | Librarian |
-| -Monstrosity | Psychic  |              | Scientist |
-| -Arcane      | Cultist  | Mob Boss     |           |
+| Matrix       | +Anomaly       | +Monstrosity | +Arcane   |
+| ------------ | -------------- | ------------ | --------- |
+| -Anomaly     | Femme Fatale   | Detective    | Librarian |
+| -Monstrosity | Fortune Teller | Ironworker   | Scientist |
+| -Arcane      | Cultist        | Mob Boss     |           |
+**Ending story**
+The first slide of the ending should be shared by all characters, saving me time and effort
+
+| The deck of horrors glows on the table, three bodies are seen lying on the floor around it. The ROLE watches, a tendril reaches out. | With the last card played the game ends. Your wish, ROLE, shall be granted. |
+| ------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------- |
+#### Detective
+- Unlocks: **Mob Boss** (Turns into them)
+- Wish: For no one to lie to them again.
+- Result: The Star Crowned King gives them power, makes everyone fearful of them, and the detective becomes an eldritch mob boss. Monstrous underlings do his bidding
+
+| Art                                                                                                                                       | Narrative                                                                                             |
+| ----------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| The detective writhes in pain at the table, suit starting to rip, the three bodies around the table start to glow                         | Power floods through your veins, fear becomes a currency. No soul will be brave enough to lie to you. |
+| The Mob Boss stands at the top of a building looking down at the city, eldritch minions stand beside him                                  | All who cross you shiver. The city obeys your every command.<br><br>Mob Boss unlocked                 |
+
+#### Scientist
+- Unlocks: **Fortune Teller** (Turns into them)
+- Wish: To know everything.
+- Results: The Star Crowned King bestows upon them knowledge of all that has been, will be, and things that can never be. Her arcane knowledge is instead replaced with anomalous knowledge, turning her into the Fortune Teller
+
+| Art                                                                                                                                                             | Narrative                                                                                                      |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| The scientist looks at the camera, eyes glowing, a tendril reaches from above and a swirl of eldritch knowledge rises up from the ground and surrounds her head | The Star Crowned King bestows upon you the knowledge of all that has been, will be, and all that can never be. |
+| Eyes still glowing, the fortune teller now ponders an orb, with eldritch runes inside it                                                                        | Knowledge beyond time now guides your destiny. <br><br>Fortune Teller unlocked.                                |
+
+#### Cultist
+- Unlocks: **Librarian** (Turns into them)
+- Wish: To please the Star Crowned King
+- Results: The Star Crowned King would be happiest if this cultist simply didn't know of them at all. With their mind wiped, they become the librarian.
+
+| Art                                                                       | Narrative                                                                                                                      |
+| ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| The cultist sits with a glass in front of him                             | The Star-Crowned King bestows upon you a transformative mixture that will grant you charisma unbound                           |
+| The Bartender places the glass down, emptied, the background is now a bar | A sip is all it takes to bend the willpower of all before you. Every heart opens before your words.<br><br>Bartender unlocked. |
+
+#### Ironworker
+- Unlocks: **Femme Fatale** (Revived by the star crowned king)
+- Wish: To bring back someone who died in a construction accident
+- Results: The Star Crowned King brings her back, but not as she was.
+
+| Art                                                                                     | Narrative                                                                                   |
+| --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| The Ironworker pleads with the deck, crying                                             | The Star‑Crowned King can bring back what was lost, but never as it was                     |
+| A pale woman stands upon a construction site, claw marks on the steel where her hand is | She returns, not as she was, something new, something better.<br><br>Femme Fatale unlocked. |
+
+
 ### Actions
 
 Each role will have their own set of Actions, each which have a *value*, a *name*, and optionally an *effect*.
