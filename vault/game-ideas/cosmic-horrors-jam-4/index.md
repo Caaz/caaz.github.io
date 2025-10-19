@@ -1,9 +1,9 @@
 ---
-title: Cosmic Horrors Jam IV
+title: Godscrown
 summary: A game created for the Cosmic Horrors Jam IV!
 draft: false
 date: 2025-10-08T18:12:49
-lastmod: 2025-10-17T12:33:48
+lastmod: 2025-10-19T14:48:11
 ---
 ![[title.png]]
 This game is for the [Cosmic Horrors Jam IV](https://itch.io/jam/cosmichorrorsjam4)! I'm writing this before the jam starts as I've already got an idea in mind that should be easy to develop, and let me flex some art skills along the way.
@@ -18,33 +18,61 @@ Player characters are human, each representing a character within your typical f
 
 Point cards and instant cards will be joined as **Action Cards**. An action card will have effects that can trigger in your hand, when played, during ties, etc.
 
+### How this differs
+This game borrows a lot of mechanics and twists some others, but is it enough to be its own game? Maybe. Here's a quick chart
+
+| Feature                  | Happy Little Dinosaurs | Godcrown |
+| ------------------------ | ---------------------- | -------- |
+| Board + Pieces           | Yes                    | No       |
+| Point Cards              | Yes                    | Yes      |
+| Disaster Cards           | Yes                    | Yes      |
+| Point Effect Cards       | Yes                    | Yes*     |
+| Multiple Winning Players | Yes                    | No       |
+| Story                    | No                     | Yes      |
+| Unlockable Characters    | No*                    | Yes?     |
+#### Point Effect Cards
+In Happy Little Dinosaurs, there's a limited amount of effects one can do in paper. Since Godscrown is digital, we can do much weirder and more complicated things since the game can figure out the mechanics for us! Growth for example would be impractical in HLD. Reversal would be confusing, but not impossible.
+#### Unlockable Characters
+I fully expect some characters to be unlockable through the story. HLD *does* have extra characters, but they're expansions and I'd equate that more to DLC.
 ## Rules
+### Keybinds
 
-There are two decks, an Action Deck and a Horror Deck
+| Action                    | Keybind                  |
+| ------------------------- | ------------------------ |
+| Skip Intro, Skip Tutorial | Space, Left Mouse Button |
+| Pause                     | Escape, P                |
+| Select Card               | Left Mouse Button        |
 
-The Action Deck contains 21 cards: a set of 7 point cards ranging from 1-7, 3 each.
-The Horror Deck contains 20 cards: 
-- 6 Arcane Horrors
-- 6 Anomaly Horrors
-- 6 Monstrosity Horrors
-- 2 Cosmic Horrors (Which count as Arcane, Anomaly and Monstrosity)
 
-There are three Roles players can choose from:
-- Detective: +1 to Monstrosity Horrors, -1 to Anomaly Horrors
-- Scientist: +1 to Arcane Horrors, -1 to Monstrosity Horrors
-- Cultist: +1 to Anomaly Horrors, -1 to Arcane Horrors
+### Starting the Game
+At the beginning of the game, each player chooses a role. Draws three cards.
 
-At the beginning of the game, each player chooses a role and draws 3 cards.
+#### Turns
+At the beginning of the turn a horror card is revealed and each player chooses an Action Card from their hand. Once all players have chosen their card, they're revealed simultaneously. The player with the lowest score loses the round, and collects the current horror card.
 
-At the beginning of a turn, a horror card is drawn from the horror deck and revealed to all players. Each player plays a card from their hand face down. Drawing a card to replace the card played. When all players have played their cards, they're flipped simultaneously, and the player with the lowest points takes the horror card.
+##### Ties
+If more than one player has the lowest score for a round, then a tiebreaker round starts. The tying players play a turn to break the tie, and repeat until the tie is broken.
+### Horrors
+Horrors are *usually* one of three types: Arcane, Anomaly, Monstrosity. Each type has an icon and color associated with it. If a player collects 3 of the same horror, they lose the game.
+##### Cosmic Horrors
+Cosmic horrors are horror cards that count as *all* types. Collecting a cosmic horror adds to all three type counters.
+### Roles
+#### Biases
+Some roles have biases, which means when facing certain horrors, their action cards can be worth more or less depending on the bias, indicated by the arrows in their character box.
+#### Action Deck
+Each role has their own unique Action deck, which is 7 action cards with varying point values and effects. Certain effects are only active during specific points of gameplay, it's important to use them at the right time!
+### Action Cards
+Action cards have a point value, and sometimes an effect. 
+#### Effects
 
-Scoring: Each action card has a value associated with it ranging from 1-7, the player who played the card may also have a score adjustment based on their role. For example if a Detective is playing an action of 4 against a monstrosity horror, their total score is 5 due to the +1 to monstrosity detective has.
+| Name      | Effect                                                                           |
+| --------- | -------------------------------------------------------------------------------- |
+| Growth    | Each turn the card is in your hand, an amount will be added to the card's value. |
+| Refresh   | When played, discards your entire hand and draws 3 new ones.                     |
+| Stack     | When played, allows you to play a second card to add to the card's value.        |
+| Critical  | When played vs a specific horror type, a bonus is added to the card's value      |
+| Breaker   | When played during a tiebreaker, a bonus is added to the card's value            |
 
-If two players tie for lowest score, they play a second card and score those as well. (Drawing to replace the card played as well). They repeat this step until the tie is broken.
-
-If any player collects 3 of the same type of horror, they lose the game.
-
-To win, you must be the last player in the game.
 ## Content
 ### Horrors
 ![[horrors.png]]
@@ -77,12 +105,12 @@ To win, you must be the last player in the game.
 |     | Monstrosity | Voidhoppers         | Living shadows reach out to take their hosts             |
 
 
-### Characters
+### Roles
 ![[portriats.png]]
 
 | Matrix       | +Anomaly       | +Monstrosity | +Arcane   |
 | ------------ | -------------- | ------------ | --------- |
-| -Anomaly     | Femme Fatale   | Detective    | Librarian |
+| -Anomaly     | Femme Fatale   | Detective    | Bartender |
 | -Monstrosity | Fortune Teller | Ironworker   | Scientist |
 | -Arcane      | Cultist        | Mob Boss     |           |
 **Ending story**
@@ -95,10 +123,10 @@ The first slide of the ending should be shared by all characters, saving me time
 - Wish: For no one to lie to them again.
 - Result: The Star Crowned King gives them power, makes everyone fearful of them, and the detective becomes an eldritch mob boss. Monstrous underlings do his bidding
 
-| Art                                                                                                                                       | Narrative                                                                                             |
-| ----------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| The detective writhes in pain at the table, suit starting to rip, the three bodies around the table start to glow                         | Power floods through your veins, fear becomes a currency. No soul will be brave enough to lie to you. |
-| The Mob Boss stands at the top of a building looking down at the city, eldritch minions stand beside him                                  | All who cross you shiver. The city obeys your every command.<br><br>Mob Boss unlocked                 |
+| Art                                                                                                               | Narrative                                                                                             |
+| ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| The detective writhes in pain at the table, suit starting to rip, the three bodies around the table start to glow | Power floods through your veins, fear becomes a currency. No soul will be brave enough to lie to you. |
+| The Mob Boss stands at the top of a building looking down at the city, eldritch minions stand beside him          | All who cross you shiver. The city obeys your every command.<br><br>Mob Boss unlocked                 |
 
 #### Scientist
 - Unlocks: **Fortune Teller** (Turns into them)
@@ -125,24 +153,10 @@ The first slide of the ending should be shared by all characters, saving me time
 - Wish: To bring back someone who died in a construction accident
 - Results: The Star Crowned King brings her back, but not as she was.
 
-| Art                                                                                     | Narrative                                                                                   |
-| --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| The Ironworker pleads with the deck, crying                                             | The Star‑Crowned King can bring back what was lost, but never as it was                     |
-| A pale woman stands upon a construction site, claw marks on the steel where her hand is | She returns, not as she was, something new, something better.<br><br>Femme Fatale unlocked. |
-
-
-### Actions
-
-Each role will have their own set of Actions, each which have a *value*, a *name*, and optionally an *effect*.
-#### Effects
-
-| Name     | Effect                                                                           |
-| -------- | -------------------------------------------------------------------------------- |
-| Growth   | Each turn the card is in your hand, an amount will be added to the card's value. |
-| Refresh  | When played, discards your entire hand and draws 3 new ones.                     |
-| Stack    | When played, allows you to play a second card to add to the card's value.        |
-| Critical | When played vs a specific horror type, a bonus is added to the card's value      |
-| Breaker  | When played during a tiebreaker, a bonus is added to the card's value            |
+| Art                                                                                     | Narrative                                                                                                                   |
+| --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| The Ironworker pleads with the deck, crying                                             | The Star‑Crowned King can bring back what was lost, but never as it was                                                     |
+| A pale woman stands upon a construction site, claw marks on the steel where her hand is | Your wife returns returns to the living, but not as she was, something new, something better.<br><br>Femme Fatale unlocked. |
 
 
 ## Technical
