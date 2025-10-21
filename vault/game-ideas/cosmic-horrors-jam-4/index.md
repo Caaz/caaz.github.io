@@ -3,10 +3,11 @@ title: Godscrown
 summary: A game created for the Cosmic Horrors Jam IV!
 draft: false
 date: 2025-10-08T18:12:49
-lastmod: 2025-10-19T14:48:11
+lastmod: 2025-10-21T09:24:01
 ---
 ![[title.png]]
 This game is for the [Cosmic Horrors Jam IV](https://itch.io/jam/cosmichorrorsjam4)! I'm writing this before the jam starts as I've already got an idea in mind that should be easy to develop, and let me flex some art skills along the way.
+<iframe frameborder="0" src="https://itch.io/embed-upload/15295129?color=070707" allowfullscreen="" width="640" height="380"><a href="https://caaz.itch.io/godscrown">Play Godscrown on itch.io</a></iframe>
 
 ## The Plan
 I'd like to create a game heavily inspired by [Happy Little Dinosaurs](https://unstablegames.com/collections/happy-little-dinosaurs/products/happy-little-dinosaurs-base-game), a very simple boardgame where you take your dinosaur character from one end of the board to the other, each turn facing a different disaster, and you use items to hopefully escape. I'll do some research on [[game-dives/happy-little-dinosaurs/index|Happy Little Dinosaurs, found here]]. Then I'll lay out how this game rethemes it and differs.
