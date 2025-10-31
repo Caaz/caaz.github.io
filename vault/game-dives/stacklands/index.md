@@ -3,7 +3,7 @@ title: Stacklands
 summary: A village builder where you stack cards to collect food, build structures, and fight creatures.
 draft: false
 date: 2025-10-30T20:17:19
-lastmod: 2025-10-31T02:20:35
+lastmod: 2025-10-31T11:01:00
 ---
 Stacklands is a very interesting game made by a team that aims to create a new game every month. That's insane to me. They've made over 100 games. Anyway, here I'd like to analyze Stacklands, which is one of their games I love! The premise is fairly simple, but the gameplay gets incredibly complex and somewhat fast paced as the time goes on.
 
@@ -47,7 +47,7 @@ You're limited on how many cards you can have on the field, once a day ends you'
 I'm always a bit torn on this game. I like a lot of the gameplay, it keeps me coming back. *However...* I find it becomes overwhelming after a while. Everything in this section is certifiably *my opinion* and completely subjective. You may disagree and that's fine. I think changing the problems I describe would make it fundamentally a different experience, and that may not be the experience the developers want. That's fine.
 #### Problems
 ##### Card limit punishes new runs, but not long lived ones.
-The [[#Limited Card Count]] mechanic only *really* affects the beginning of the game. It's fairly trivial to create a **Warehouse** which increase your limit by a good amount, so once you acquire an **Iron Mine**, you can build an absurd amount of Warehouses which require no upkeep and permanently increase your limit. This feels like a punishment on new players who *can't* create warehouses, and instead have to rely on sheds which are considerably less effective, to the point where it's not even worth bothering to spend the resources for.
+The Limited Card Count mechanic only *really* affects the beginning of the game. It's fairly trivial to create a **Warehouse** which increase your limit by a good amount, so once you acquire an **Iron Mine**, you can build an absurd amount of Warehouses which require no upkeep and permanently increase your limit. This feels like a punishment on new players who *can't* create warehouses, and instead have to rely on sheds which are considerably less effective, to the point where it's not even worth bothering to spend the resources for.
 Designing around this... Does the card limit affect gameplay? It ensures the player can't just stockpile resources forever, until they can. It feels ineffective at doing its job. Removing it can cause the board to become covered in cards, which can be overwhelming as well. Here's some options that I could think of.
 1. Make limit increasing buildings require a cost per day
 	- Some kind of upkeep would ensure these buildings aren't just a "build and forget" sort of thing, maybe requiring gold, or villagers to maintain it? (So, you can only have as many warehouses as villagers, who then need food)
