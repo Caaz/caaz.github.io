@@ -21,7 +21,7 @@
     "_index.md": "f09dabca411274d69f430847f20a31fb739cc2e8c629a8f3391829c9b20e1d2b",
     "_templates/page.md": "a050bcf1a8d3f6085966b1639dcb7b9cc6a5b4d1f4da7538d3bafe920d78d56e",
     "blog/_index.md": "24a77bca2f87d7f4f0ac2b6ed1711fdd44b5af9bbbfac4fe18ce6ef44ec8da71",
-    "blog/ai.md": "84fd4e8bfd378b4f8fc958e601800c26e82fbe4f7d92b8d18dad865ca5a6885e",
+    "blog/ai.md": "1a06685297467825ea7eca22c560cd713d8d2ff836c94d8efb71866a51d657cd",
     "blog/funandgames-rimworld.md": "193a562eb9459ec9034c6330133213a09b668f8ebc33e663d8a30f6767c10397",
     "game-ideas/_index.md": "a7b3c822ceb7b5fa34c6c49bc5521b9ace8e2f3c5fd83299d3f613d358bfcc12",
     "game-ideas/grimmwar/index.md": "cf8e75e03df07e45d7721eb57f3a3d4df60150a444c2c993a4a0e6fae58730d6",
@@ -57,6 +57,7 @@
     "game-dives/happy-little-dinosaurs/index.md": "73242cd67c735665229f3f3b0ce107fb8e76cef0f66878b188854874ddaff2ec",
     "game-dives/_index.md": "a55f717b359500217526c0ab3bd589099d7225d31fde82945fba06711039fbfa",
     "game-ideas/cosmic-horrors-jam-4/index.md": "76e9260df7689ba9f2902fea4cf9373558e9a80f44e6e5e67d929fecdd5c43c5",
-    "game-dives/stacklands/index.md": "b691aebb8adf06276f693606a44d31ff85959166e29cd66c5113fd0fd21fc5fe"
+    "game-dives/stacklands/index.md": "b691aebb8adf06276f693606a44d31ff85959166e29cd66c5113fd0fd21fc5fe",
+    "blog/how-to-jam.md": "0aa60408d8d0f3cc473e41e0c85fcb8f4c37f3967f5f468fd40d9e7ea00ef541"
   }
 }
