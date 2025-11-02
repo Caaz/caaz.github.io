@@ -3,7 +3,7 @@ title: How to Jam
 summary: Ever want to join a game jam? Don't know how to start? Here's some quick tips.
 draft: false
 date: 2025-10-31T18:09:12
-lastmod: 2025-11-01T14:56:48
+lastmod: 2025-11-01T22:32:26
 ---
 My game [[game-ideas/cosmic-horrors-jam-4/index|Godscrown]] placed first overall in the Cosmic Horrors Game Jam IV! I really spent a lot of time polishing the game and ensuring anyone could just pick it up and go, and I think that helped a ton when it came to ratings. There's *many* little tips and tricks I learned from past jams and this jam, a lot of it you can learn from my [[retrospectives/_index|Retrospectives]], but I'd like a unified place I can link people to when they need help jamming, so here we go!
 ## Tips
@@ -38,4 +38,4 @@ Many of these tips came from folks other than me and then mashed up together int
 	- Submitted [Ex Luce Ad Tenebras](https://relmurain.itch.io/ex-luce-ad-tenebras)
 	- https://pent4gram.carrd.co
 - Haych
-	- Submitted BadFish (But I can't find it aaaa)
+	- Submitted [BadFish](https://itch.io/jam/cosmichorrorsjam4/rate/3982726)
