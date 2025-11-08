@@ -3,9 +3,9 @@ title: How to Jam
 summary: Ever want to join a game jam? Don't know how to start? Here's some quick tips.
 draft: false
 date: 2025-10-31T18:09:12
-lastmod: 2025-11-01T22:32:26
+lastmod: 2025-11-07T21:33:55
 ---
-My game [[game-ideas/cosmic-horrors-jam-4/index|Godscrown]] placed first overall in the Cosmic Horrors Game Jam IV! I really spent a lot of time polishing the game and ensuring anyone could just pick it up and go, and I think that helped a ton when it came to ratings. There's *many* little tips and tricks I learned from past jams and this jam, a lot of it you can learn from my [[retrospectives/_index|Retrospectives]], but I'd like a unified place I can link people to when they need help jamming, so here we go!
+My game [[game-ideas/cosmic-horrors-jam-4/_index|Godscrown]] placed first overall in the Cosmic Horrors Game Jam IV! I really spent a lot of time polishing the game and ensuring anyone could just pick it up and go, and I think that helped a ton when it came to ratings. There's *many* little tips and tricks I learned from past jams and this jam, a lot of it you can learn from my [[retrospectives/_index|Retrospectives]], but I'd like a unified place I can link people to when they need help jamming, so here we go!
 ## Tips
 These tips will be a mix of things I've learned from all of my jamming experience (About 7 jams submitted to, much more joined and failed.) Some tips come from others! Got some tips of your own, feel free to let me know and I'll update the page! I'll do my best to 
 ### Define Goals.
