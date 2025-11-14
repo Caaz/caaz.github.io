@@ -26,7 +26,7 @@
     "game-ideas/_index.md": "a7b3c822ceb7b5fa34c6c49bc5521b9ace8e2f3c5fd83299d3f613d358bfcc12",
     "game-ideas/grimmwar/index.md": "cf8e75e03df07e45d7721eb57f3a3d4df60150a444c2c993a4a0e6fae58730d6",
     "game-ideas/havoc/index.md": "bf917f68346a5f41bdffc5ad10a0347101e557efddf7e66f0f4087f5e7ee12da",
-    "blog/game-design-documents.md": "e3b14009ea9f861f35e9c2bbe5b30a04e104129a2e8435a0b5f1560521ee61ed",
+    "blog/game-design-documents.md": "0fdbf33387fd3e1050417583fa274f99fa1aa3f5ba80d4087f21b3fce4cc1b13",
     "blog/2025-resolution.md": "6f66a5350c420ec7f38d626187ae2a6c74e719360a4e99be8961c4d2f5de9fac",
     "blog/art-as-a-developer/index.md": "798303e75f8eabb5ec3324c7180cafe89b6a90f22b12b98052bb01f2bc860534",
     "game-ideas/vaedria/index.md": "f0eeb1fd5399ccc0683abad5992ab9492b4cf2bb07da2f5d8c443187064b4e7e",
@@ -57,10 +57,12 @@
     "game-dives/happy-little-dinosaurs/index.md": "73242cd67c735665229f3f3b0ce107fb8e76cef0f66878b188854874ddaff2ec",
     "game-dives/_index.md": "a55f717b359500217526c0ab3bd589099d7225d31fde82945fba06711039fbfa",
     "game-dives/stacklands/index.md": "b691aebb8adf06276f693606a44d31ff85959166e29cd66c5113fd0fd21fc5fe",
-    "blog/how-to-jam.md": "244d0cde06c083a1f67590d146316a5567ee9102c7bf420b61add497b0c64dac",
+    "blog/how-to-jam.md": "0ae2003df1483ccc41ef371a11cdda1e483a8fd8638d0254f173db3152fce254",
     "research/think-tree.md": "f88b092a651c94429697a04bf1d22624f1eff7f90d50a48783ea7835f9a3b18e",
-    "game-ideas/cosmic-horrors-jam-4/_index.md": "76e9260df7689ba9f2902fea4cf9373558e9a80f44e6e5e67d929fecdd5c43c5",
-    "game-ideas/cosmic-horrors-jam-4/devlog/_index.md": "a35d4e7fe5095bd02186e2ed43d16c6511ed37ab0ffc94bc92f9ae410b399049",
-    "game-ideas/cosmic-horrors-jam-4/devlog/001-post-jam-planning.md": "461bb65d6faf86f279ffd7472e76c089caca674e0e2000627292a3173a1c581a"
+    "game-ideas/cosmic-horrors-jam-4/_index.md": "fafa3ac36c4105fd10f2af231d4441b956dfd2167135f3c936ca7c5fc18fe67d",
+    "game-ideas/cosmic-horrors-jam-4/devlog/_index.md": "f657de9c25b6cd9e1318fa174101f0c540f7c6b33f9041190a563ae96cf484b0",
+    "game-ideas/cosmic-horrors-jam-4/devlog/001-post-jam-planning.md": "ffdc0debce72462ffa578e38725ac0df55aff09358c8c79f3a6c8965d5a2bf0c",
+    "game-ideas/cosmic-horrors-jam-4/design/jam-design-doc.md": "cd26483484359b9b54e01dcb15921c2b64ae9787deef4d4154e42f62f7464fa2",
+    "game-ideas/cosmic-horrors-jam-4/design/multiplayer.md": "691489af1c899a5bceb78ae53d80f23cb287d6a52f2e17ce284223fbaa3d7eff"
   }
 }

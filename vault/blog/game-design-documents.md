@@ -1,6 +1,6 @@
 ---
 date: 2025-01-05T20:49:02
-lastmod: 2025-10-05T20:38:46
+lastmod: 2025-11-14T15:12:35
 title: Game Design Documents
 summary: I want to figure out what the best way to go about making a game design document, here's what I've got
 draft: false
@@ -39,6 +39,7 @@ Finally, it ends with a section on development, where they lay out how long they
 ## Other resources
 - [This Reddit Post](https://www.reddit.com/r/gamedesign/comments/7ze7xq/finished_game_design_document_examples/) asks for game design documents, and has been my primary source for the design documents linked here. 
 - [gamedocs.org](https://gamedocs.org/documents/) has quite a lot of documents listed, and a separate section for pitches!
+- [3M Design Document](https://docs.google.com/document/d/1Nh952xim_vVpMNmSxjNLkL_sShSqFjU5r5K_gE6vOSI/edit?tab=t.0) a design document template that covers the Minimum, Medium, and Maximum concepts of a game.
 
 ## Call to action!
 Are you working on an indie game? Do you have a design document? Let me know! I'm very interested in gathering information on this topic, and it truly feels like there's no one right way to do it, so I'm interested in seeing everyone's opinion on this.

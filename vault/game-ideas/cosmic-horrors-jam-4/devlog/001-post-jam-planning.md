@@ -3,7 +3,7 @@ title: Post-Jam Planning
 summary: This update is the first after the jam, and is a massive re-write.
 draft: false
 date: 2025-11-07T21:34:26
-lastmod: 2025-11-08T13:30:45
+lastmod: 2025-11-08T15:20:22
 ---
 After the Jam I took some time to think over the development of Godscrown, and review the responses I got to it. I'm *mostly focused* on the negative/constructive responses, as I feel there's more to learn from there.
 ## 1.0.0 (Jam Version) Feedback
@@ -79,6 +79,5 @@ There won't be booster packs with a bunch of card names you have to Frankenstein
 Since card names are *more* flavor text than anything else, I'd like to allow the player to set their own card name for each of the 14 cards in their deck. The *Effects* are where things get interesting. The player can pay to reveal 3 effects and apply one to a card of their choosing. 
 #### Horrors as a Currency
 **HaaC** based economy. In a game of Godscrown, the player either wins with somewhere between 0-6 horrors, or loses with anywhere from 3-9 horrors. This fact won't change with the coming update. So what if we put those horrors to good use. Save a count of each horror type the player's ever collected, and use those as a currency for an in-game shop. You could purchase effects for custom decks, new customization options for your character, or more deck slots.
-
 ### Reaction Effects/Portraits
 To add to the game feel of things, I'd like to introduce portrait reactions to events in the game, to show the character properly horrified when near death. I'd also like to introduce more particle effects and animations for the player's display when collecting horrors and such. It'd bring more life to the game and I think that's important.
