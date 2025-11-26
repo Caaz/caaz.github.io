@@ -3,42 +3,24 @@ title: Node and Scene References
 date: 2024-12-22T21:39:16
 draft: false
 summary: Node and scene references in Godot scripts can be referenced using various methods, but some should be avoided due to potential issues with scene restructuring or node name changes.
-lastmod: 2025-03-05T19:00:25
+lastmod: 2025-11-23T19:48:23
 ---
-## The typical cases
-Like all programming problems, referencing a node or scene in a Godot script can be done in many ways. I've found that some of these ways can raise issues during development that can cause problems, and should probably be avoided because of it.
+## Node References
+Like all programming problems, referencing a node or scene in a Godot script can be done in many ways. I've found that some of these ways can raise issues during development that can cause problems, but which you use depends entirely on the nature of your project.
 
-```
-# via find_child
-@onready var some_node = find_child("SomeNode")
-# via $Name
-@onready var some_node = $SomeNode
-# via unique name
-@onready var some_node = %SomeNode
-# via export
-@export var some_node:Node
-```
+For example, if you're still in the process of restructuring things, choosing an option that doesn't break while moving nodes around is probably ideal. If you're still in the process of choosing proper names for your nodes, then the export option might be even better. (Something that may be the case during test scenes and such.)
 
-### The problems
-The first two suffer from an annoying issue, if we happen to restructure the scene's tree, and move `SomeNode` to a child of a different node, the script breaks, and we have to go in and modify the script to resolve it.
+| Option                       | Breaks on Rename | Breaks on Reorganizing | Developer Experience                                                                                                                                                                                                                                                                    |
+| ---------------------------- | ---------------- | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `$Name`                      | Yes              | Yes                    | *Most* problematic, but most handy if you're just using it once for some odd thing... Risky, I suppose. Probably a bad habit to use often.                                                                                                                                              |
+| `find_child("Name")`         | Yes              | No                     | Once you use it, you're stuck with that name. Can be good, can be annoying.                                                                                                                                                                                                             |
+| `%Name`                      | Yes              | No                     | Functionally similar to the previous option, but now you have to set up % in your scene. I'm a little against this non-code UI option, it feels weird.                                                                                                                                  |
+| `@export var some_node:Node` | No               | No                     | The most robust option, however... It can clutter the property inspector when including a scene that exports variables that *shouldn't* be changed by other scenes. If you're not careful, you can forget to set it as well, something a little less likely with more explicit options. |
+## Scene References
+Scenes have similar issues, but you're able to reference them in a variety of ways.
 
-The third option is safe from that problem of course, but it runs into a different issue: If you happen to change that node's name, it once again breaks our script causing us to refactor again.
-
-### The solution
-
-The fourth option listed is an exported variable, I believe is the best solution. It's immune from both of the previous issues listed as Godot will track when the name or location of the node changes. As an added bonus, it forces us to properly type hint the node.
-
-Scene references have less options for referencing them, but again, I'd avoid hard-coding the path for scenes in a script, as again, moving that file around will break that script. An exported variable instead work well to avoid that.
-
-```
-@export var some_scene:PackedScene
-```
-
-## Caveats
-
-### Circular Dependencies
-Circular Dependencies can happen with the exported variable approach for scenes specifically. If for example, you have scene_a with an exported variable to scene_b, then have scene_b with an exported variable to scene_a, neither scene will be loadable by the Godot editor.
-
-This issue is difficult to notice, as you can set it up in the editor, and while the project is in memory, it's fine. The error only arises when loading the scene into memory. Regularly reloading the project on git merges is a good practice to avoid one of these slipping by.
-
-In these scenarios, it might actually be easier to hard-code the scene locations, perhaps in a global autoload script, as at least then if it breaks a script, it'll only break one script.
+| Option                             | Breaks on Renaming | Breaks on Moving | Developer Experience                                                                                                                                                                                                 |
+| ---------------------------------- | ------------------ | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `load("path/to/file.tscn")`        | Yes                | Yes              | *Most* problematic. Can cause issues for filesystems that are case sensitive, like web builds or linux builds.                                                                                                       |
+| load("uid://someuidthing")         | No                 | No               | *Pretty good* but you can run into issues with circular dependencies if you're not careful.                                                                                                                          |
+| @export var some_scene:PackedScene | No                 | No               | Functionally similar to the previous option, but with the added benefit of having a preview in editor. You might be able to pull off a read-only exported variable with the previous option to get a similar effect. |
