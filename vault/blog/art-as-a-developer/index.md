@@ -3,7 +3,7 @@ title: Art, as a Developer
 summary: I've struggled to learn art as a developer, here's my work to figure out how to learn it so far.
 draft: false
 date: 2025-01-14T13:08:26
-lastmod: 2025-01-14T14:58:40
+lastmod: 2025-12-09T10:48:46
 ---
 As a developer, learning art has been a struggle. I'm used to approaching tasks in a by-the-book method, and a lot of art in my experience has been "try it and see what works!" which has never sat right with me. I need structure and guidelines, I need consistency, I need to know what's going *wrong* so I can guide myself towards the correct way.
 
@@ -40,3 +40,5 @@ I may make a specialized loader for these links in the future and note what I th
 - https://bsky.app/profile/darkscorpion19.bsky.social/post/3lfoy7syic22k
 - https://www.youtube.com/watch?v=er2DMi6NUwE
 - https://bsky.app/profile/misteak.bsky.social/post/3lfprb7gwb22x
+
+## Where I'm At

@@ -3,7 +3,7 @@ title: Project Structure
 date: 2024-12-22T21:35:19
 draft: false
 summary: A suggested project structure for Godot projects involves separating scene-specific scripts from global scripts and placing them in their respective folders, making it easier to manage and refactor code.
-lastmod: 2025-11-23T21:08:54
+lastmod: 2025-11-26T09:35:20
 ---
 ## The usual
 Generally, the project structure I've seen most is as follows:
@@ -49,6 +49,7 @@ music
 sfx
 textures
 resources
+	(resource_type.gd)
 	(resource_type)
 		(some_resource.tres)
 scenes
