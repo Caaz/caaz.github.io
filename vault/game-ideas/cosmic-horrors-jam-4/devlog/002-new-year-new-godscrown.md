@@ -1,9 +1,9 @@
 ---
-title: New year, new Godscrown
+title: 002 - New year, new Godscrown
 summary: Some minor changes to Godscrown's Gameplay.
 draft: false
 date: 2026-01-03T17:12:42
-lastmod: 2026-01-04T11:22:29
+lastmod: 2026-01-04T11:42:17
 weight: "1"
 ---
 So over the past few months I've been thinking a lot about Godscrown, and how to improve the clarity of the gameplay. *Most* of the changes from [[001-post-jam-planning|the previous devlog]] are still planned, with some notable changes.

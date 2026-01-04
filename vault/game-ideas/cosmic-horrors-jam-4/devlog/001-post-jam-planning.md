@@ -1,9 +1,9 @@
 ---
-title: Post-Jam Planning
+title: 001 - Post-Jam Planning
 summary: This update is the first after the jam, and is a massive re-write.
 draft: false
 date: 2025-11-07T21:34:26
-lastmod: 2026-01-04T11:22:27
+lastmod: 2026-01-04T11:42:13
 weight: "1"
 ---
 After the Jam I took some time to think over the development of Godscrown, and review the responses I got to it. I'm *mostly focused* on the negative/constructive responses, as I feel there's more to learn from there.
