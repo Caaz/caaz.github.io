@@ -3,7 +3,8 @@ title: Clouds
 summary: Some clouds that cast shadows, in Godot 4.5
 draft: false
 date: 2026-01-21T13:53:50
-lastmod: 2026-01-21T20:11:33
+lastmod: 2026-01-21T20:24:49
+post: 3mcydoxio722e
 ---
 So! A while back I made an [interesting cloud shader](https://bsky.app/profile/caaz.me/post/3m6zztcbgck2c). In it, I used 50 planes to simulate a volumetric-like clouds, which can cast shadows!
 
