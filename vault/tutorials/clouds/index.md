@@ -3,7 +3,7 @@ title: Clouds
 summary: Some clouds that cast shadows, in Godot 4.5
 draft: false
 date: 2026-01-21T13:53:50
-lastmod: 2026-01-21T20:24:49
+lastmod: 2026-01-24T00:25:48
 post: 3mcydoxio722e
 ---
 So! A while back I made an [interesting cloud shader](https://bsky.app/profile/caaz.me/post/3m6zztcbgck2c). In it, I used 50 planes to simulate a volumetric-like clouds, which can cast shadows!
@@ -132,6 +132,8 @@ Here the mesh is set to a SphereMesh, with a radius of 100m, and a height of 50m
 You'll notice that this comes before the final smoothstep to the density. I've found this looks a bit more natural, if you simply apply the sky to the density *after* the cloud sharpness, you get a gradient effect, but this gives us more of a half-gradient, half-cloud-density sort of look which feels more natural. It's always nice to play around with the order of operations here to get a feel for what does what.
 
 In practice, you'll likely want to move this mesh along with your player to ensure they don't walk straight through it.
+
+> Heads up! During some testing, you may want to choose a *much larger* mesh if you're going the "follow the player" method. Try 1000m radius, and a height of 500m. You'll need to adjust the uv scale to something *very small* to account for the change in size here, so adjust the `uv *= uv_scale;` line to `uv *= uv_scale * .0001;`. This'll give you a ton more precision when editing the value in Godot's Inspector.
 ### Step 4: Simulating Wind
 Now, this is something you're just going to have to take my word on since my site doesn't support animations (but I'll probably post a video on Bluesky so go follow me there to not miss anything!)
 
