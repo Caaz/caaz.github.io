@@ -3,7 +3,7 @@ title: Clouds
 summary: Some clouds that cast shadows, in Godot 4.5
 draft: false
 date: 2026-01-21T13:53:50
-lastmod: 2026-01-25T14:25:25
+lastmod: 2026-01-25T14:33:10
 post: 3mcydoxio722e
 ---
 So! A while back I made an [interesting cloud shader](https://bsky.app/profile/caaz.me/post/3m6zztcbgck2c). In it, I used 50 planes to simulate a volumetric-like clouds, which can cast shadows!
@@ -284,7 +284,8 @@ Here's what that looks like on the Forward+ Renderer (which blurs shadows a bit 
 ![[Screenshot 2026-01-25 14-02-00-382.jpg]]
 You'll note that this makes the clouds look a bit pixelated. The only solution I could think to do here is have a second pass of a shader with *almost* the exact same code, but removing `depth_prepass_alpha` from the render modes. Unfortunately, I don't believe there's a way to do this from a uniform. 
 
-```gdshadershader_type spatial;
+```glsl
+shader_type spatial;
 render_mode unshaded, cull_disabled, depth_prepass_alpha;
 
 uniform sampler3D cloud_volume;
