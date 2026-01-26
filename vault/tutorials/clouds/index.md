@@ -3,7 +3,7 @@ title: Clouds
 summary: Some clouds that cast shadows, in Godot 4.5
 draft: false
 date: 2026-01-21T13:53:50
-lastmod: 2026-01-25T14:33:10
+lastmod: 2026-01-25T17:45:58
 post: 3mcydoxio722e
 ---
 So! A while back I made an [interesting cloud shader](https://bsky.app/profile/caaz.me/post/3m6zztcbgck2c). In it, I used 50 planes to simulate a volumetric-like clouds, which can cast shadows!
@@ -278,6 +278,8 @@ Anyway, this allows us to make clouds that look reasonable at night, with a diff
 ![[Screenshot 2026-01-21 19-52-34-778.jpg]]
 ![[Pasted image 20260121195314.png]]
 ### Step 6: Dithered Alpha
+It's been a few days and I stumbled upon [this fancy Godot VFX by Binbun](https://bsky.app/profile/binbun3d.bsky.social/post/3mdazfmdvys22), which inspired me to add dithering to these clouds!
+
 Since shadows are cast when the alpha is greater than `.1`, the shadows are fairly cartoon-like and blobby. We could instead set the alpha with dithering to achieve a more gradual shadow. We can further blend the shadow (in project settings, and light settings) to get a more blended transition. The higher your shadow size is, the nicer these look, but the longer it'll take to render them!
 
 Here's what that looks like on the Forward+ Renderer (which blurs shadows a bit nicer than the compatibility renderer I've been using!)
