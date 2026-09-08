@@ -1,7 +1,7 @@
 ---
 title: Turn Based Combat
 summary: What are the pieces of turn based combat? How can they be adjusted or modified?
-draft: false
+draft: true
 date: 2025-06-30T21:34:06
 lastmod: 2025-07-08T14:27:05
 ---
